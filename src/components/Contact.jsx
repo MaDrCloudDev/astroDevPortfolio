@@ -1,3 +1,6 @@
+import Button from './Button';
+import chevronSvg from '/doublechevron.svg';
+
 const Contact = () => {
 	return (
 		<div
@@ -107,17 +110,26 @@ const Contact = () => {
 										rows='10'
 										name='message'></textarea>
 								</div>
-								<button className='w-full p-4 text-gray-100 mt-4 hover:scale-105 ease-in duration-200'>
-									Send Message
-								</button>
+								<Button text='Message' />
 							</form>
 						</div>
 					</div>
 				</div>
 				<div className='flex justify-center py-12'>
 					<a href='/'>
-						<div className='rounded-full shadow-lg shadow-gray-700 p-4 border border-gray-800 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400'>
-							<img />
+						<div className='text-4xl rounded-full shadow-lg shadow-gray-700 p-4 border border-gray-800 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 '>
+							<svg
+								class='h-8 w-8 text-white hover:fill-current hover:text-yellow-400'
+								xmlns='http://www.w3.org/2000/svg'
+								fill='currentColor'
+								viewBox='0 0 18 21'
+								stroke='currentColor'
+								aria-hidden='true'>
+								<path
+									d='M2.10291 20.1667L0 18.0638L8.94855 9.11522L17.8971 18.0638L15.7942 20.1667L8.94855 13.3359L2.10291 20.1667ZM2.10291 11.2181L0 9.11522L8.94855 0.166672L17.8971 9.11522L15.7942 11.2181L8.94855 4.3874L2.10291 11.2181Z'
+									fill='currentColor'
+								/>
+							</svg>
 						</div>
 					</a>
 				</div>
