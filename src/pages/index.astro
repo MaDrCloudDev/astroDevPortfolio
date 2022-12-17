@@ -3,15 +3,14 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header';
 import Main from '../components/Main';
 import About from '../components/About';
+import Skills from '../components/Skills';
 ---
 
 <Layout title='Frontend Mentor | Intro section with dropdown navigation.'>
 	<Header client:only='react' />
-	<main class='container'>
+	<container class='container'>
 		<Main />
-		<About
-			<
-			main
-		/>
-	</main>
+		<About />
+		<Skills />
+	</container>
 </Layout>
