@@ -42,7 +42,7 @@ const Header = () => {
 						aria-controls='sidebar'
 						aria-label='Open Menu'>
 						<svg
-							class='h-8 w-8 text-white hover:fill-current hover:text-yellow-400'
+							class='h-8 w-8 text-white hover:fill-current hover:text-yellow-400 lg:hidden'
 							width='32'
 							height='18'
 							fill='white'
