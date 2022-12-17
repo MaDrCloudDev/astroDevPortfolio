@@ -1,10 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 ---
 
-<Layout title='MaDr.blog'>
-	<main class='container'>
-		<Navbar client:only='react' />
-	</main>
+<Layout title='Frontend Mentor | Intro section with dropdown navigation.'>
+	<Header client:only='react' />
+	<main class='container'></main>
 </Layout>
