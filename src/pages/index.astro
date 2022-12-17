@@ -1,9 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header';
+import Main from '../components/Main';
 ---
 
 <Layout title='Frontend Mentor | Intro section with dropdown navigation.'>
 	<Header client:only='react' />
-	<main class='container'></main>
+	<main class='container'>
+		<Main />
+	</main>
 </Layout>

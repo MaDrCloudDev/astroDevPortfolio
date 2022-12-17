@@ -1,4 +1,4 @@
-import { Disclosure, Transition } from '@headlessui/react';
+import { Transition } from '@headlessui/react';
 
 const Sidebar = ({ open = false, setOpen }) => {
 	return (
@@ -15,7 +15,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 					leaveTo='translate-x-full'>
 					<div
 						id='sidebar'
-						className={`fixed right-0 top-0 w-[250px] h-screen bg-almost-white pt-20 p-8 z-50`}>
+						className={`fixed right-0 top-0 w-[250px] h-screen bg-black pt-20 p-8 z-50`}>
 						<button
 							onClick={() => setOpen(false)}
 							aria-expanded={open}
