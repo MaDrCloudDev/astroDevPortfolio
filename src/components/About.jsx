@@ -10,8 +10,8 @@ const About = () => {
 					</p>
 					<h2 className='py-4'>Who Am I?</h2>
 					<p className='py-2 text-gray-200'>
-						Passionate about progressive web apps, cloud and browser-based
-						tools. A future dominated by JavaScript
+						A passionate progressive web app user and builder, I'm devoted to
+						cloud and browser-based tools.
 					</p>
 					<p className='py-2 text-gray-200'>
 						Junior full-stack web developer specializing in HTML, CSS,

@@ -163,7 +163,7 @@ const Contact = () => {
 					</div>
 				</div>
 				<div className='flex justify-center py-12'>
-					<a href='https://1drv.ms/b/s!AlMWEDAJ82TdgR6YC7RaqHAVPXMN?e=hXG5UJ'>
+					<a href='/#home'>
 						<div className='rounded-full border border-gray-800 shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 							<svg
 								class='h-8 w-8 hover:fill-yellow-400 hover:text-yellow-400'
