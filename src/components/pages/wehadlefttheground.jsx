@@ -29,14 +29,10 @@ const WeHadLeftTheGround = () => {
 						towards my career transition into full-stack web development.
 					</p>
 					<a href='https://wehadlefttheground.madr.io/'>
-						<button className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200'>
-							Demo
-						</button>
+						<SmallButton text='Demo' />
 					</a>
 					<a href='https://github.com/MaDrCloudDev/weHadLeftTheGround'>
-						<button className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200'>
-							Code
-						</button>
+						<SmallButton text='Code' />
 					</a>
 				</div>
 				<div className='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
@@ -46,15 +42,15 @@ const WeHadLeftTheGround = () => {
 						</p>
 						<div className='grid grid-cols-3 md:grid-cols-1'>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								CSS
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								HTML
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								JavaScript
 							</p>
 						</div>

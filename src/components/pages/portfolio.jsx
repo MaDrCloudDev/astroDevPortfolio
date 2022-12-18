@@ -30,9 +30,7 @@ const Portfolio = () => {
 						me prepare to master Next.js 13+.
 					</p>
 					<a href='https://madr.blog/'>
-						<button className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200'>
-							Demo
-						</button>
+						<SmallButton text='Demo' />
 					</a>
 				</div>
 				<div className='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>

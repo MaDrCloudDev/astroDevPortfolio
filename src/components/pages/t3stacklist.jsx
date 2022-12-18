@@ -38,9 +38,7 @@ const T3StackList = () => {
 						towards more Next.JS development.
 					</p>
 					<a href='https://t3stacklist.netlify.app/'>
-						<button className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200'>
-							Demo
-						</button>
+						<SmallButton text='Demo' />
 					</a>
 				</div>
 				<div className='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
@@ -50,31 +48,31 @@ const T3StackList = () => {
 						</p>
 						<div className='grid grid-cols-3 md:grid-cols-1'>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								Next.js
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								Prisma
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								PlanetScale
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								Tailwind
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								tRPC
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								TypeScript
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-600' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								Framer Motion
 							</p>
 						</div>

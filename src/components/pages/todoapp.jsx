@@ -33,14 +33,10 @@ const TodoApp = () => {
 						configure Babel and Webpack on a project.
 					</p>
 					<a href='https://todoapp.madr.io/'>
-						<button className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200'>
-							Demo
-						</button>
+						<SmallButton text='Demo' />
 					</a>
 					<a href='https://github.com/MaDrCloudDev/todoapp'>
-						<button className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200'>
-							Code
-						</button>
+						<SmallButton text='Code' />
 					</a>
 				</div>
 				<div className='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
