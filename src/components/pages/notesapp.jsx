@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const NotesApp = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -82,5 +84,4 @@ const NotesApp = () => {
 		</div>
 	);
 };
-
 export default NotesApp;

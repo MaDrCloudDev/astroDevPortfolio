@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const GoalsMaDr = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -78,5 +80,4 @@ const GoalsMaDr = () => {
 		</div>
 	);
 };
-
 export default GoalsMaDr;

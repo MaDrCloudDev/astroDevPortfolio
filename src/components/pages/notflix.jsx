@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const Notflix = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -70,5 +72,4 @@ const Notflix = () => {
 		</div>
 	);
 };
-
 export default Notflix;

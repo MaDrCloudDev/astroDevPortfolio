@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const Portfolio = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -59,5 +61,4 @@ const Portfolio = () => {
 		</div>
 	);
 };
-
 export default Portfolio;

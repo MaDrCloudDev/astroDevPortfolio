@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const WeHadLeftTheGround = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -65,5 +67,4 @@ const WeHadLeftTheGround = () => {
 		</div>
 	);
 };
-
 export default WeHadLeftTheGround;

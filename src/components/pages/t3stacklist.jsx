@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const T3StackList = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -87,5 +89,4 @@ const T3StackList = () => {
 		</div>
 	);
 };
-
 export default T3StackList;

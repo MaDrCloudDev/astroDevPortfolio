@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const WixHoaSite = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -58,5 +60,4 @@ const WixHoaSite = () => {
 		</div>
 	);
 };
-
 export default WixHoaSite;

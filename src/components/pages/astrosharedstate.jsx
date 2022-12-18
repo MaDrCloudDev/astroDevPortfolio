@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const AstroSharedState = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -86,5 +88,4 @@ const AstroSharedState = () => {
 		</div>
 	);
 };
-
 export default AstroSharedState;

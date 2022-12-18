@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const CampMaDrs = () => {
 	return (
 		<div className='w-full overflow-hidden'>

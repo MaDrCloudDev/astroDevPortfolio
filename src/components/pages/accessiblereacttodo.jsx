@@ -69,5 +69,4 @@ const AccessibleReactTodo = () => {
 		</div>
 	);
 };
-
 export default AccessibleReactTodo;

@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const VectorDesign = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -57,5 +59,4 @@ const VectorDesign = () => {
 		</div>
 	);
 };
-
 export default VectorDesign;

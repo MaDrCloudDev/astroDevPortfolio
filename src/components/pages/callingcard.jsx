@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const CallingCard = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -76,5 +78,4 @@ const CallingCard = () => {
 		</div>
 	);
 };
-
 export default CallingCard;

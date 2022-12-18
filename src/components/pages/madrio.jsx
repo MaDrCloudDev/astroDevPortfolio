@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const MaDrIo = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -61,5 +63,4 @@ const MaDrIo = () => {
 		</div>
 	);
 };
-
 export default MaDrIo;

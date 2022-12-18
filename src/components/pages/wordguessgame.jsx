@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const WordGuessGame = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -73,5 +75,4 @@ const WordGuessGame = () => {
 		</div>
 	);
 };
-
 export default WordGuessGame;

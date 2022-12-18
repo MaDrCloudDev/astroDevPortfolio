@@ -1,3 +1,5 @@
+import SmallButton from '../SmallButton';
+
 const TodoApp = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -77,5 +79,4 @@ const TodoApp = () => {
 		</div>
 	);
 };
-
 export default TodoApp;
