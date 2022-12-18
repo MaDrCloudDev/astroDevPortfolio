@@ -54,7 +54,7 @@ const AccessibleReactTodo = () => {
 						<p className='text-center justify-center font-bold pb-2  text-yellow-400 '>
 							Technologies
 						</p>
-						<div className='grid frid-cols-3 md:grid-cols-1'>
+						<div className='grid grid-cols-3 md:grid-cols-1'>
 							<p className='text-gray-200 py-2 flex items-center'>
 								<img className='pr-1 text-blue-600' />
 								React

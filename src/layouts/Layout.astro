@@ -14,31 +14,25 @@ const { title } = Astro.props;
 			name='viewport'
 			content='width=device-width, initial-scale=1.0'
 		/>
+		<link
+			rel='icon'
+			type='image/svg'
+			sizes='any'
+			href='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/MaDrLogo.svg'
+		/>
 		<!-- displays site properly based on user's device -->
-	</head><a
-		rel='preconnect'
-		href='https://fonts.googleapis.com'
-	></a>
-	<a
-		rel='preconnect'
-		href='https://fonts.gstatic.com'
-		crossorigin
-	></a>
-	<a
-		href='https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap'
-		rel='stylesheet'
-	></a>
-
-	<a
-		rel='icon'
-		type='image/png'
-		sizes='32x32'
-		href='.//favicon-32x32.png'
-	></a>
-
-	<title>{title}</title>
+		<title>{title}</title>
+	</head>
 
 	<body class='text-white bg-black z-0'>
 		<slot />
 	</body>
+
+	<style>
+		html {
+			scroll-behavior: smooth !important;
+
+			color: white;
+		}
+	</style>
 </html>

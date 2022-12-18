@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import Main from '../components/Main';
 import About from '../components/About';
 import Skills from '../components/Skills';
@@ -9,7 +9,7 @@ import Contact from '../components/Contact';
 ---
 
 <Layout title='MaDr.blog'>
-	<Header client:only='react' />
+	<Navbar client:only='react' />
 	<container class='container'>
 		<Main />
 		<About />
@@ -18,11 +18,3 @@ import Contact from '../components/Contact';
 		<Contact />
 	</container>
 </Layout>
-
-<style>
-	html {
-		scroll-behavior: smooth !important;
-		background-color: black;
-		color: white;
-	}
-</style>

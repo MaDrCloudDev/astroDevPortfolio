@@ -1,11 +1,28 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Sidebar from './Sidebar.jsx';
 
-const Header = () => {
+const Navbar = () => {
 	const [open, setOpen] = useState(false);
+	const [shadow, setShadow] = useState(false);
+
+	useEffect(() => {
+		const handleShadow = () => {
+			if (window.scrollY >= 90) {
+				setShadow(true);
+			} else {
+				setShadow(false);
+			}
+		};
+		window.addEventListener('scroll', handleShadow);
+	}, []);
 
 	return (
-		<header className='fixed w-full h-15 bg-black shadow-lg shadow-gray-700 z-[100]'>
+		<header
+			className={
+				shadow
+					? 'fixed w-full h-20 shadow-lg shadow-gray-700 z-[100] bg-black'
+					: 'fixed w-full h-20 z-[100] bg-black'
+			}>
 			<div className='flex py-5 px-3'>
 				<div className='flex items-center pt-3'>
 					<a href='/'>
@@ -60,4 +77,4 @@ const Header = () => {
 	);
 };
 
-export default Header;
+export default Navbar;
