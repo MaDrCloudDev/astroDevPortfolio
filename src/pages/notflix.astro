@@ -4,7 +4,7 @@ import Notflix from '../components/pages/notflix';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='Notflix | MaDr'>
+	<NavbarPages client:only='react'/>
 	<Notflix />
 </Layout>

@@ -4,7 +4,7 @@ import WixHoaSite from '../components/pages/wixhoasite';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='wixHoaSite | MaDr'>
+	<NavbarPages client:only='react'/>
 	<WixHoaSite />
 </Layout>

@@ -74,7 +74,7 @@ const Navbar = () => {
 					</a>
 				</div>
 				<div className='flex-grow flex items-center z-20'>
-					<ul class='hidden lg:flex lg:space-x-7 lg:ml-14'>
+					<ul className='hidden lg:flex lg:space-x-7 lg:ml-14'>
 						<a href='/#home'>
 							<li className='hover:text-yellow-400'>Home</li>
 						</a>

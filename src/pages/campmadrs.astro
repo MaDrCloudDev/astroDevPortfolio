@@ -4,7 +4,7 @@ import CampMaDrs from '../components/pages/campmadrs';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='campMaDrs | MaDr'>
+	<NavbarPages client:only='react'/>
 	<CampMaDrs />
 </Layout>

@@ -4,7 +4,7 @@ import T3StackList from '../components/pages/t3stacklist';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='t3StackList | MaDr'>
+	<NavbarPages client:only='react'/>
 	<T3StackList />
 </Layout>

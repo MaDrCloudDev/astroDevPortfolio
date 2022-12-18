@@ -18,7 +18,7 @@ const Navbar = () => {
 				</div>
 				<div className='flex-grow flex items-center z-20'>
 					<ul class='hidden lg:flex lg:space-x-7 lg:ml-14'>
-						<a href='/#home'>
+						{/* <a href='/#home'>
 							<li className='hover:text-yellow-400'>Home</li>
 						</a>
 						<a href='/#about'>
@@ -32,7 +32,7 @@ const Navbar = () => {
 						</a>
 						<a href='/#contact'>
 							<li className='hover:text-yellow-400'>Contact</li>
-						</a>
+						</a> */}
 					</ul>
 				</div>
 				<div className='flex items-center'>
@@ -42,7 +42,7 @@ const Navbar = () => {
 						aria-controls='sidebar'
 						aria-label='Open Menu'>
 						<svg
-							class='h-8 w-8 text-white hover:fill-current hover:text-yellow-400 lg:hidden'
+							class='h-8 w-8 text-white hover:fill-current hover:text-yellow-400'
 							width='32'
 							height='18'
 							fill='white'

@@ -4,7 +4,7 @@ import AstroSharedState from '../components/pages/astrosharedstate';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='astroSharedState | MaDr'>
+	<NavbarPages client:only='react'/>
 	<AstroSharedState />
 </Layout>

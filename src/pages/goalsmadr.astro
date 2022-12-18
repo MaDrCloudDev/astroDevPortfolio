@@ -4,7 +4,7 @@ import GoalsMaDr from '../components/pages/goalsmadr';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='goalsMaDr | MaDr'>
+	<NavbarPages client:only='react'/>
 	<GoalsMaDr />
 </Layout>

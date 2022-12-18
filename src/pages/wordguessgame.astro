@@ -4,7 +4,7 @@ import WordGuessGame from '../components/pages/wordguessgame';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='wordGuessGame | MaDr'>
+	<NavbarPages client:only='react'/>
 	<WordGuessGame />
 </Layout>

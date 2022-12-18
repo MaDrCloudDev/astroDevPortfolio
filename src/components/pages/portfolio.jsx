@@ -42,6 +42,16 @@ const Portfolio = () => {
 						HeadlessUI, and pieced together a much cleaner, much faster version
 						of my new portfolio. It's still a work in progress.
 					</p>
+					<p>
+						In time, I plan to migrate the JSX pages to Astro pages, leaving
+						only the actual components as JSX. Some unique challenges I
+						encountered included: How to implement icons with on-hover effects
+						in without access to React/Icons, and how to conditionally change
+						CSS based on route without access to useEffect on Next/Router. I
+						ended up using inline SVGs with on-hover fill changes for the icons,
+						and I simply created a second Navbar component for my pages instead
+						of changing CSS based on route.
+					</p>
 					<a href='https://madr.blog/'>
 						<SmallButton text='Demo' />
 					</a>

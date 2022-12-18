@@ -4,7 +4,7 @@ import Portfolio from '../components/pages/portfolio';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='MaDrPortfolio | MaDr'>
+	<NavbarPages client:only='react'/>
 	<Portfolio />
 </Layout>

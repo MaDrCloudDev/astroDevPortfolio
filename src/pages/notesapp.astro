@@ -4,7 +4,7 @@ import NotesApp from '../components/pages/notesapp';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='notesApp | MaDr'>
+	<NavbarPages client:only='react'/>
 	<NotesApp />
 </Layout>

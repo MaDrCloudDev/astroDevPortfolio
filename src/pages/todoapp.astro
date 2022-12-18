@@ -4,7 +4,7 @@ import TodoApp from '../components/pages/todoapp';
 import NavbarPages from '../components/NavbarPages';
 ---
 
-<Layout>
-	<NavbarPages />
+<Layout title='todoApp | MaDr'>
+	<NavbarPages client:only='react'/>
 	<TodoApp />
 </Layout>
