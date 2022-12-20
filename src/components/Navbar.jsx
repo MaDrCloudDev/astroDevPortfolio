@@ -23,7 +23,7 @@ const Navbar = () => {
 					? 'fixed w-full h-20 shadow-lg shadow-gray-700 z-[100] bg-black'
 					: 'fixed w-full h-20 z-[100] bg-black'
 			}>
-			<div className='flex py-5 px-3'>
+			<div className='flex py-5 px-3 text-xl'>
 				<div className='flex items-center'>
 					<a href='/'>
 						<svg

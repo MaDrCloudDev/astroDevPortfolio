@@ -25,7 +25,7 @@ const About = () => {
 					<a
 						href='/#projects'
 						alt='/'>
-						<p className='py-2 text-yellow-400 text-lg underline cursor-pointer'>
+						<p className='py-2 text-yellow-400 text-lg underline cursor-pointer hover:text-blue-600'>
 							Check out some of my projects
 						</p>
 					</a>

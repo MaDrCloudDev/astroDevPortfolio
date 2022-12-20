@@ -12,7 +12,7 @@ const WixHoaSite = () => {
 					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/wixhoasite.webp'
 					alt='/'
 				/>
-				<div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2'>
+				<div className='absolute text-3xl font-bold  top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2'>
 					<h2 className='py-2 text-yellow-400'>Wix HOA Site</h2>
 					<h3>Figma / Wix</h3>
 				</div>

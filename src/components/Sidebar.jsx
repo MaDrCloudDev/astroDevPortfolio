@@ -126,7 +126,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 								<li>
 									{' '}
 									<svg
-										class='h-8 w-8 hover:fill-yellow-400 hover:text-yellow-400'
+										class='h-8 w-8'
 										xmlns='http://www.w3.org/2000/svg'
 										fill='currentColor'
 										viewBox='0 0 20 20'
@@ -146,7 +146,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 								<li>
 									{' '}
 									<svg
-										class='h-8 w-8 hover:fill-yellow-400 hover:text-yellow-400'
+										class='h-8 w-8'
 										xmlns='http://www.w3.org/2000/svg'
 										fill='currentColor'
 										viewBox='0 0 20 20'
@@ -166,7 +166,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 								<li>
 									{' '}
 									<svg
-										class='h-8 w-8 hover:fill-yellow-400 hover:text-yellow-400'
+										class='h-8 w-8'
 										xmlns='http://www.w3.org/2000/svg'
 										fill='currentColor'
 										viewBox='0 0 20 20'
@@ -186,7 +186,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 								<li>
 									{' '}
 									<svg
-										class='h-8 w-8 hover:fill-yellow-400 hover:text-yellow-400'
+										class='h-8 w-8'
 										xmlns='http://www.w3.org/2000/svg'
 										fill='currentColor'
 										viewBox='0 0 21 21'

@@ -1,3 +1,5 @@
+import Carousel from '../Carousel';
+
 const VectorDesign = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -10,7 +12,7 @@ const VectorDesign = () => {
 					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign.webp'
 					alt='/'
 				/>
-				<div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2'>
+				<div className='absolute text-3xl font-bold  top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2'>
 					<h2 className='py-2 text-yellow-400'>Vector Design</h2>
 					<h3>Adobe Illustrator / Figma</h3>
 				</div>
@@ -27,11 +29,12 @@ const VectorDesign = () => {
 						Yahoo! GeoCities, I&apos;ve long had a passion for designing vector
 						logos and vectorizing existing logos.
 					</p>
-					<div className=''>
+					{/* <div className=''>
 						<img src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign2.webp' />
 						<img src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign3.webp' />
 						<img src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign.webp' />
-					</div>
+					</div> */}
+					<Carousel />
 				</div>
 				<div className='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
 					<div className='p-2'>

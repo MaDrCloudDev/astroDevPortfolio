@@ -32,12 +32,14 @@ const Contact = () => {
 								</p>
 							</div>
 							<div>
-								<p className='uppercase pt-8'>Connect With Me</p>
+								<p className='uppercase underline pt-8 text-center text-blue-600'>
+									Connect With Me
+								</p>
 								<div className='flex items-center justify-between py-4'>
 									<a href='mailto:MaDrCloudDev@outlook.com'>
-										<div className='rounded-full border border-gray-800 shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
+										<div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
-												class='h-4 w-4 hover:fill-yellow-400 hover:text-yellow-400'
+												class='h-4 w-4'
 												xmlns='http://www.w3.org/2000/svg'
 												fill='currentColor'
 												viewBox='0 0 20 20'
@@ -51,9 +53,9 @@ const Contact = () => {
 										</div>
 									</a>
 									<a href='https://www.linkedin.com/in/matthew-drish-920440241'>
-										<div className='rounded-full border border-gray-800 shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
+										<div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
-												class='h-4 w-4 hover:fill-yellow-400 hover:text-yellow-400'
+												class='h-4 w-4'
 												xmlns='http://www.w3.org/2000/svg'
 												fill='currentColor'
 												viewBox='0 0 20 20'
@@ -67,9 +69,9 @@ const Contact = () => {
 										</div>
 									</a>
 									<a href='https://www.github.com/MaDrCloudDev/'>
-										<div className='rounded-full border border-gray-800 shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
+										<div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
-												class='h-4 w-4 hover:fill-yellow-400 hover:text-yellow-400'
+												class='h-4 w-4'
 												xmlns='http://www.w3.org/2000/svg'
 												fill='currentColor'
 												viewBox='0 0 20 20'
@@ -83,9 +85,9 @@ const Contact = () => {
 										</div>
 									</a>
 									<a href='https://1drv.ms/b/s!AlMWEDAJ82TdgR6YC7RaqHAVPXMN?e=hXG5UJ'>
-										<div className='rounded-full border border-gray-800 shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
+										<div className='rounded-full  shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
-												class='h-4 w-4 hover:fill-yellow-400 hover:text-yellow-400'
+												class='h-4 w-4'
 												xmlns='http://www.w3.org/2000/svg'
 												fill='currentColor'
 												viewBox='0 0 20 20'
@@ -162,9 +164,9 @@ const Contact = () => {
 				</div>
 				<div className='flex justify-center py-12'>
 					<a href='/#home'>
-						<div className='rounded-full border border-gray-800 shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
+						<div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 							<svg
-								class='h-8 w-8 hover:fill-yellow-400 hover:text-yellow-400'
+								class='h-8 w-8'
 								xmlns='http://www.w3.org/2000/svg'
 								fill='currentColor'
 								viewBox='0 0 18 21'
