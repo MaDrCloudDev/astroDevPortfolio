@@ -8,7 +8,7 @@ const WordGuessGame = () => {
 				<img
 					className='absolute z-[-500]'
 					layout='fill'
-					objectFit='cover'
+					// objectFit='cover'
 					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrwordguessgame.webp'
 					alt='/'
 				/>
@@ -19,12 +19,12 @@ const WordGuessGame = () => {
 			</div>
 			<div className='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 				<div className='col-span-4'>
-					<p className='font-bold text-yellow-400 mb-4'>Description</p>
+					<p className='text-xl font-bold text-yellow-400 mb-4'>Description</p>
 					<p className='mb-4'>
 						My Hangman-style word guess game I built using HTML, CSS,
 						JavaScript,Babel, & Webpack
 					</p>
-					<h2 className='text-blue-600 mb-4'>Overview</h2>
+					<h2 className='text-lg text-blue-600 mb-4'>Overview</h2>
 					<p className='mb-4'>
 						I built this Hangman-style word guess game as part of my Udemy
 						certification. It improved my JavaScript fundamentals, my Babel and
@@ -67,8 +67,8 @@ const WordGuessGame = () => {
 					</div>
 				</div>
 				<a href='/#projects'>
-					<p className='underline cursor-pointer font-bold text-md text-yellow-400'>
-						Back
+					<p className='text-xl font-bold underline cursor-pointer font-bold text-md text-yellow-400'>
+						← Back
 					</p>
 				</a>
 			</div>

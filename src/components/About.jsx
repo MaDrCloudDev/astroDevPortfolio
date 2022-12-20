@@ -1,3 +1,5 @@
+import Button from '../components/Button';
+
 const About = () => {
 	return (
 		<div
@@ -23,11 +25,10 @@ const About = () => {
 						build my competencies & push my capabilities.
 					</p>
 					<a
+						className=''
 						href='/#projects'
 						alt='/'>
-						<p className='py-2 text-yellow-400 text-lg underline cursor-pointer hover:text-blue-600'>
-							Check out some of my projects
-						</p>
+						<Button text='Check out some of my projects' />
 					</a>
 				</div>
 				<div className='w-full h-auto m-auto shadow-lg shadow-gray-700 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-200'>

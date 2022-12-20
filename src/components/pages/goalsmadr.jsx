@@ -8,7 +8,7 @@ const GoalsMaDr = () => {
 				<img
 					className='absolute z-[-500]'
 					layout='fill'
-					objectFit='cover'
+					// objectFit='cover'
 					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/goalsmadr.webp'
 					alt='/'
 				/>
@@ -19,7 +19,7 @@ const GoalsMaDr = () => {
 			</div>
 			<div className='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 				<div className='col-span-4'>
-					<p className='font-bold text-yellow-400 mb-4'>Description</p>
+					<p className='text-xl font-bold text-yellow-400 mb-4'>Description</p>
 					<p className='mb-4'>
 						A full-stack app I built to help users save & track their goals,
 						developed with MongoDB, Express, React, & Node.js. Mongoose & Axios.
@@ -28,7 +28,7 @@ const GoalsMaDr = () => {
 					<p className='mb-4'>
 						• NOTE: The Node app takes some time to wake up. Give it a minute
 					</p>
-					<h2 className='text-blue-600 mb-4'>Overview</h2>
+					<h2 className='text-lg text-blue-600 mb-4'>Overview</h2>
 					<p>
 						Another opportunity to scaffold a REST API with a modern React UI.
 						Building this app helped me get my feet wet with Redux and improve
@@ -72,8 +72,8 @@ const GoalsMaDr = () => {
 					</div>
 				</div>
 				<a href='/#projects'>
-					<p className='underline cursor-pointer font-bold text-md text-yellow-400'>
-						Back
+					<p className='text-xl font-bold underline cursor-pointer font-bold text-md text-yellow-400'>
+						← Back
 					</p>
 				</a>
 			</div>

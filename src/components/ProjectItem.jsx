@@ -1,6 +1,6 @@
 const ProjectItem = ({ title, backgroundImg, projectUrl, frameWorks }) => {
 	return (
-		<div className='relative flex items-center justify-center h-auto w-full shadow-lg shadow-gray-700 border border-gray-800 rounded-xl p-4 group hover:bg-gradient-to-r from-blue-600 to-[#709dff] hover:border-yellow-400'>
+		<div className='relative flex items-center justify-center h-auto w-full shadow-lg shadow-gray-700 rounded-xl p-4 group hover:bg-gradient-to-r from-blue-700 to-blue-400'>
 			<img
 				className='rounded-xl group-hover:opacity-10'
 				src={backgroundImg}

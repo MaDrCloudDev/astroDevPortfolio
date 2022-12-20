@@ -8,7 +8,7 @@ const Portfolio = () => {
 				<img
 					className='absolute z-[-500]'
 					layout='fill'
-					objectFit='cover'
+					// objectFit='cover'
 					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrportfolio.webp'
 					alt='/'
 				/>
@@ -19,12 +19,12 @@ const Portfolio = () => {
 			</div>
 			<div className='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 				<div className='col-span-4'>
-					<p className='font-bold text-yellow-400 mb-4'>Description</p>
+					<p className='text-xl font-bold text-yellow-400 mb-4'>Description</p>
 					<p className='mb-4'>
 						My modern visual portfolio built with Astro, React components, &
 						Tailwind
 					</p>
-					<h2 className='text-blue-600 mb-4'>Overview</h2>
+					<h2 className='text-lg text-blue-600 mb-4'>Overview</h2>
 					<p className='mb-4'>
 						I originally built this portfolio in Next.js to get a better handle
 						on Next 13 as I move towards developing more apps in Vercel's
@@ -78,8 +78,8 @@ const Portfolio = () => {
 					</div>
 				</div>
 				<a href='/#projects'>
-					<p className='underline cursor-pointer font-bold text-md text-yellow-400'>
-						Back
+					<p className='text-xl font-bold underline cursor-pointer font-bold text-md text-yellow-400'>
+						← Back
 					</p>
 				</a>
 			</div>

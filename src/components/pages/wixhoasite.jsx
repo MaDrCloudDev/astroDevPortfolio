@@ -8,7 +8,7 @@ const WixHoaSite = () => {
 				<img
 					className='absolute z-[-500]'
 					layout='fill'
-					objectFit='cover'
+					// objectFit='cover'
 					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/wixhoasite.webp'
 					alt='/'
 				/>
@@ -19,11 +19,11 @@ const WixHoaSite = () => {
 			</div>
 			<div className='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 				<div className='col-span-4'>
-					<p className='font-bold text-yellow-400 mb-4'>Description</p>
+					<p className='text-xl font-bold text-yellow-400 mb-4'>Description</p>
 					<p className='mb-4'>
 						A Wix website I created for a local homeowner association
 					</p>
-					<h2 className='text-blue-600 mb-4'>Overview</h2>
+					<h2 className='text-lg text-blue-600 mb-4'>Overview</h2>
 					<p>
 						Before transitioning into web development, I was focused on small
 						business development, which often involved designing and building
@@ -52,8 +52,8 @@ const WixHoaSite = () => {
 					</div>
 				</div>
 				<a href='/#projects'>
-					<p className='underline cursor-pointer font-bold text-md text-yellow-400'>
-						Back
+					<p className='text-xl font-bold underline cursor-pointer font-bold text-md text-yellow-400'>
+						← Back
 					</p>
 				</a>
 			</div>

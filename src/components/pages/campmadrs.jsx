@@ -8,7 +8,7 @@ const CampMaDrs = () => {
 				<img
 					className='absolute z-[-500]'
 					layout='fill'
-					objectFit='cover'
+					// objectFit='cover'
 					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/campmadrs.webp'
 					alt='/'
 				/>
@@ -22,7 +22,7 @@ const CampMaDrs = () => {
 			</div>
 			<div className='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 				<div className='col-span-4'>
-					<p className='font-bold text-yellow-400 mb-4'>Description</p>
+					<p className='text-xl font-bold text-yellow-400 mb-4'>Description</p>
 					<p className='mb-4'>
 						A full-stack application I developed using MongoDB, Mongoose,
 						Express, Node.js, EJS, Bootstrap, Passport, Cloudinary, & Mapbox -
@@ -33,7 +33,7 @@ const CampMaDrs = () => {
 						• NOTE: The Node app takes some time to wake up. Give it a few
 						seconds
 					</p>
-					<h2 className='text-blue-600 mb-4'>Overview</h2>
+					<h2 className='text-lg text-blue-600 mb-4'>Overview</h2>
 					<p className='mb-4'>
 						A full-stack application I developed as part of my Udemy curriculum.
 						I used MongoDB, Mongoose, Express, and Node.js to implement CRUD,
@@ -98,8 +98,8 @@ const CampMaDrs = () => {
 					</div>
 				</div>
 				<a href='/#projects'>
-					<p className='underline cursor-pointer font-bold text-md text-yellow-400'>
-						Back
+					<p className='text-xl font-bold underline cursor-pointer font-bold text-md text-yellow-400'>
+						← Back
 					</p>
 				</a>
 			</div>

@@ -8,7 +8,7 @@ const AccessibleReactTodo = () => {
 				<img
 					className='absolute z-[-500]'
 					layout='fill'
-					objectFit='cover'
+					// objectFit='cover'
 					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/accessiblereacttodo.webp'
 					alt='/'
 				/>
@@ -19,7 +19,7 @@ const AccessibleReactTodo = () => {
 			</div>
 			<div className='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 				<div className='col-span-4'>
-					<p className='font-bold text-yellow-400 mb-4'>Description</p>
+					<p className='text-xl font-bold text-yellow-400 mb-4'>Description</p>
 					<p className='mb-4'>
 						An Accessible React todo app I built using React hooks, state
 						management, & DOM manipulation
@@ -27,7 +27,7 @@ const AccessibleReactTodo = () => {
 					<p className='mb-4'>
 						• NOTE: No data persistence (app does not save)
 					</p>
-					<h2 className='text-blue-600 mb-4'>Overview</h2>
+					<h2 className='text-lg text-blue-600 mb-4'>Overview</h2>
 					<p className='mb-4'>
 						Based on the Mozilla Developers Network tutorial, this project
 						helped to improve my understanding of programming React user
@@ -61,8 +61,8 @@ const AccessibleReactTodo = () => {
 					</div>
 				</div>
 				<a href='/#projects'>
-					<p className='underline cursor-pointer font-bold text-md text-yellow-400'>
-						Back
+					<p className='text-xl font-bold underline cursor-pointer font-bold text-md text-yellow-400'>
+						← Back
 					</p>
 				</a>
 			</div>
