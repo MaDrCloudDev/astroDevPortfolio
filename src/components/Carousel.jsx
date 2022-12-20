@@ -3,10 +3,10 @@ import { useState } from 'react';
 const Carousel = () => {
 	const slides = [
 		{
-			url: 'https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign2.webp',
+			url: 'https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign3.webp',
 		},
 		{
-			url: 'https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign3.webp',
+			url: 'https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign2.webp',
 		},
 		{
 			url: 'https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign.webp',
