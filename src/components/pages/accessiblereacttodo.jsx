@@ -61,7 +61,7 @@ const AccessibleReactTodo = () => {
 					</div>
 				</div>
 				<a href='/#projects'>
-					<p className='text-xl font-bold underline cursor-pointer font-bold text-md text-yellow-400'>
+					<p className='text-xl font-bold underline cursor-pointer text-yellow-400'>
 						← Back
 					</p>
 				</a>

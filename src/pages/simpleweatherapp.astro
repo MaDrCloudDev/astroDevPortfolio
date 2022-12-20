@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SimpleWeatherApp from '../components/pages/simpleweatherapp';
+import NavbarPages from '../components/NavbarPages';
+---
+
+<Layout title='simpleWeatherApp | MaDr'>
+	<NavbarPages client:only='react' />
+	<SimpleWeatherApp />
+</Layout>

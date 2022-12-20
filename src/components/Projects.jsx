@@ -18,6 +18,12 @@ const Projects = () => {
 						frameWorks='React'
 					/>
 					<ProjectItem
+						title='astroConversion'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astroconversion.webp'
+						projectUrl='/astroconversion'
+						frameWorks='Astro'
+					/>
+					<ProjectItem
 						title='astroSharedState'
 						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astrosharedstate.webp'
 						projectUrl='/astrosharedstate'
@@ -66,22 +72,22 @@ const Projects = () => {
 						frameWorks='Firebase / React / Tailwind'
 					/>
 					<ProjectItem
-						title='todoApp'
-						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrtodoapp.webp'
-						projectUrl='/todoapp'
-						frameWorks='CSS / HTML / JavaScript'
-					/>
-					<ProjectItem
-						title='wordGuessGame'
-						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrwordguessgame.webp'
-						projectUrl='/wordguessgame'
-						frameWorks='CSS / HTML / Javascript'
+						title='simpleWeatherApp'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simpleweatherapp.webp'
+						projectUrl='/simpleweatherapp'
+						frameWorks='CSS / React'
 					/>
 					<ProjectItem
 						title='t3StackList'
 						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/t3stacklist.webp'
 						projectUrl='/t3stacklist'
 						frameWorks='Next.js / Prisma / PlanetScale / Tailwind / tRPC / TypeScript'
+					/>
+					<ProjectItem
+						title='todoApp'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrtodoapp.webp'
+						projectUrl='/todoapp'
+						frameWorks='CSS / HTML / JavaScript'
 					/>
 					<ProjectItem
 						title='weHadLeftTheGround'
@@ -94,6 +100,12 @@ const Projects = () => {
 						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/wixhoasite.webp'
 						projectUrl='/wixhoasite'
 						frameWorks='Figma / Wix'
+					/>
+					<ProjectItem
+						title='wordGuessGame'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrwordguessgame.webp'
+						projectUrl='/wordguessgame'
+						frameWorks='CSS / HTML / Javascript'
 					/>
 					<ProjectItem
 						title='Vector Design'

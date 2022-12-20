@@ -1,6 +1,6 @@
 import SmallButton from '../SmallButton';
 
-const Notflix = () => {
+const SimpleWeatherApp = () => {
 	return (
 		<div className='w-full overflow-hidden'>
 			<div className='w-screen h-[50vh] relative'>
@@ -9,37 +9,43 @@ const Notflix = () => {
 					className='absolute z-[-500]'
 					layout='fill'
 					// objectFit='cover'
-					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/notflix.webp'
+					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simpleweatherapp.webp'
 					alt='/'
 				/>
 				<div className='absolute text-3xl font-bold  top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2'>
-					<h2 className='py-2 text-yellow-400'>Notflix</h2>
-					<h3>Firebase / React / Tailwind</h3>
+					<h2 className='py-2 text-yellow-400'>simpleWeatherApp</h2>
+					<h3>CSS / React</h3>
 				</div>
 			</div>
 			<div className='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 				<div className='col-span-4'>
 					<p className='text-xl font-bold text-yellow-400 mb-4'>Description</p>
 					<p className='mb-4'>
-						A simple full-stack Netflix clone I built using React, Talwind,
-						Axios, Firebase, & The Movie Database API
+						An extremely simple, single-component weather app I built with
+						React, plain CSS, & OpenWeatherMap API
 					</p>
 					<h2 className='text-lg text-blue-600 mb-4'>Overview</h2>
 					<p className='mb-4'>
-						A relatively simple Netflix clone I built to practice rapidly
-						recreating modern styling and layouts with Tailwind, improve my
-						competency in React, and to practice my backend capabilities by
-						setting up and connecting a database and auth with Firebase.
+						In order to keep my skills sharp, I program every day. I made this
+						mobile-friendly, single-component weather app for some React
+						practice. I likely won't enhance the functionality of the app, since
+						it was only intended as a quick practice project.
 					</p>
 					<p>
-						Primarily a front-end project, the apps only real functionality is
-						the ability to sign in, favorite movies, and view your favorited
-						movies on the Accounts page. Not intended to be a perfect recreation
-						of modern Netflix, but a testament to how powerful Tailwind is for
-						rapid prototyping.
+						• App does not use geolocation. A city name must be provided before
+						data is displayed.
 					</p>
-					<a href='https://notflix.madr.io/'>
+					<p>
+						• Because I opted to use direct city names to pull from the API,
+						cities that share names and more obscure cities might not work
+						(e.g., "Portland" will always reference Portland, OR, not Portland,
+						ME. And cities like Dinosaur, CO don't provide data).
+					</p>
+					<a href='https://simpleweatherapp.madr.io/'>
 						<SmallButton text='Demo' />
+					</a>
+					<a href='https://github.com/MaDrCloudDev/simpleWeatherApp'>
+						<SmallButton text='Code' />
 					</a>
 				</div>
 				<div className='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
@@ -50,7 +56,7 @@ const Notflix = () => {
 						<div className='grid grid-cols-3 md:grid-cols-1'>
 							<p className='text-gray-200 py-2 flex items-center'>
 								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
-								Firebase
+								CSS
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
 								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
@@ -58,7 +64,7 @@ const Notflix = () => {
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
 								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
-								Tailwind
+								OpenWeatherMap API
 							</p>
 						</div>
 					</div>
@@ -72,4 +78,4 @@ const Notflix = () => {
 		</div>
 	);
 };
-export default Notflix;
+export default SimpleWeatherApp;

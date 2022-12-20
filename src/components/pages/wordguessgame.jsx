@@ -48,26 +48,26 @@ const WordGuessGame = () => {
 						</p>
 						<div className='grid grid-cols-3 md:grid-cols-1'>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-400' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								Babel
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-400' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								CSS
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-400' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								HTML
 							</p>
 							<p className='text-gray-200 py-2 flex items-center'>
-								<img className='pr-1 text-blue-400' />
+								<bullet className='text-4xl mr-2 text-blue-600'>•</bullet>
 								Webpack
 							</p>
 						</div>
 					</div>
 				</div>
 				<a href='/#projects'>
-					<p className='text-xl font-bold underline cursor-pointer font-bold text-md text-yellow-400'>
+					<p className='text-xl font-bold underline cursor-pointer text-yellow-400'>
 						← Back
 					</p>
 				</a>

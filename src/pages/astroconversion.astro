@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AstroConversion from '../components/pages/astroconversion';
+import NavbarPages from '../components/NavbarPages';
+---
+
+<Layout title='astroConversion | MaDr'>
+	<NavbarPages client:only='react' />
+	<AstroConversion />
+</Layout>
