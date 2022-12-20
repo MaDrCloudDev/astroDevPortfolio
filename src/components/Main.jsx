@@ -26,7 +26,7 @@ const Main = () => {
 									class='h-8 w-8 hover:fill-yellow-400 hover:text-yellow-400'
 									xmlns='http://www.w3.org/2000/svg'
 									fill='currentColor'
-									viewBox='0 0 18 21'
+									viewBox='0 0 20 20'
 									stroke='currentColor'
 									aria-hidden='true'>
 									<path

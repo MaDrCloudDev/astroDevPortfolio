@@ -1,5 +1,3 @@
-import SmallButton from '../SmallButton';
-
 const VectorDesign = () => {
 	return (
 		<div className='w-full overflow-hidden'>
@@ -29,9 +27,11 @@ const VectorDesign = () => {
 						Yahoo! GeoCities, I&apos;ve long had a passion for designing vector
 						logos and vectorizing existing logos.
 					</p>
-					<a href='/'>
-						<SmallButton text='Demo' />
-					</a>
+					<div className=''>
+						<img src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign2.webp' />
+						<img src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign3.webp' />
+						<img src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign.webp' />
+					</div>
 				</div>
 				<div className='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
 					<div className='p-2'>
