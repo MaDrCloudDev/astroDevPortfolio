@@ -32,7 +32,7 @@ const Contact = () => {
 								</p>
 							</div>
 							<div>
-								<p className='uppercase underline pt-8 text-center text-blue-600'>
+								<p className='uppercase underline font-bold pt-8 text-center text-yellow-400 decoration-blue-600 tracking-widest'>
 									Connect With Me
 								</p>
 								<div className='flex items-center justify-between py-4'>
@@ -119,6 +119,7 @@ const Contact = () => {
 											className='border-2 rounded-lg p-3 flex border-gray-300 bg-black'
 											type='text'
 											name='name'
+											placeholder='Firstname Lastname'
 										/>
 									</div>
 									<div className='flex flex-col'>
@@ -129,6 +130,7 @@ const Contact = () => {
 											className='border-2 rounded-lg p-3 flex border-gray-300 bg-black'
 											type='text'
 											name='phone'
+											placeholder='###-###-####'
 										/>
 									</div>
 								</div>
@@ -138,6 +140,7 @@ const Contact = () => {
 										className='border-2 rounded-lg p-3 flex border-gray-300 bg-black'
 										type='email'
 										name='email'
+										placeholder='someone@example.com'
 									/>
 								</div>
 								<div className='flex flex-col py-2'>
@@ -146,6 +149,7 @@ const Contact = () => {
 										className='border-2 rounded-lg p-3 flex border-gray-300 bg-black'
 										type='text'
 										name='subject'
+										placeholder='What would you like to talk about?'
 									/>
 								</div>
 								<div className='flex flex-col py-2'>
@@ -153,9 +157,10 @@ const Contact = () => {
 									<textarea
 										className='border-2 rounded-lg p-3 border-gray-300 bg-black'
 										rows='10'
-										name='message'></textarea>
+										name='message'
+										placeholder='Your message.'></textarea>
 								</div>
-								<Button text='Message' />
+								<Button text='Send message' />
 							</form>
 						</div>
 					</div>
