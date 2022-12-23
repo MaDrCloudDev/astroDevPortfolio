@@ -37,7 +37,7 @@ const CallingCard = () => {
 						frameworks like Vanta.js, and has helped me hone my personal design
 						philosophy of &quot;simplicity over complexity&quot;.
 					</p>
-					<a href='https://matthewdrish.com/'>
+					<a href='https://callingcard.madr.io/'>
 						<SmallButton text='Demo' />
 					</a>
 					<a href='https://github.com/MaDrCloudDev/callingcard'>
