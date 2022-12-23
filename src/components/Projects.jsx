@@ -30,9 +30,9 @@ const Projects = () => {
 						frameWorks='Astro / React / SolidJS / Svelte / Vue / AlpineJS'
 					/>
 					<ProjectItem
-						title='callingCard'
-						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/callingcard.webp'
-						projectUrl='/callingcard'
+						title='simpleContactSite'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simplecontactsite.webp'
+						projectUrl='/simplecontactsite'
 						frameWorks='CSS / HTML / JavaScript / Vanta.js'
 					/>
 					<ProjectItem
