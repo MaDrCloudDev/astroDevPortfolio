@@ -35,10 +35,10 @@ const NotesApp = () => {
 						JavaScript fundamentals, and taught me how to configure Babel and
 						Webpack.
 					</p>
-					<a href='https://notesapp.madr.io/'>
+					<a href='https://notesapp.madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/notesapp'>
+					<a href='https://github.com/MaDrCloudDev/notesapp' target="_blank">
 						<SmallButton text='Code' />
 					</a>
 				</div>

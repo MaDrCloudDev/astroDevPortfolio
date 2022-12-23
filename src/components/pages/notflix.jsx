@@ -38,7 +38,7 @@ const Notflix = () => {
 						of modern Netflix, but a testament to how powerful Tailwind is for
 						rapid prototyping.
 					</p>
-					<a href='https://notflix.madr.io/'>
+					<a href='https://notflix.madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
 				</div>

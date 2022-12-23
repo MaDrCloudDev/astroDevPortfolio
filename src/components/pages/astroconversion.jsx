@@ -36,10 +36,10 @@ const AstroConversion = () => {
 						each individual page were their own separate files) into a modern
 						Astro site using all of Astro's features.
 					</p>
-					<a href='https://astroconversion.madr.io/'>
+					<a href='https://astroconversion.madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/astroconversion'>
+					<a href='https://github.com/MaDrCloudDev/astroconversion' target="_blank">
 						<SmallButton text='Code' />
 					</a>
 				</div>

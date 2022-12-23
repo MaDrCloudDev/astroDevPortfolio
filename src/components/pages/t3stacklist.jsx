@@ -39,7 +39,7 @@ const T3StackList = () => {
 						competencies with Tailwind and React user interfaces as I move
 						towards more Next.JS development.
 					</p>
-					<a href='https://t3stacklist.netlify.app/'>
+					<a href='https://t3stacklist.netlify.app/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
 				</div>

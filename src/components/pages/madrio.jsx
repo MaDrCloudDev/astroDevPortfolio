@@ -33,7 +33,7 @@ const MaDrIo = () => {
 						and how to pull in and customize front-end libraries like
 						tsParticles within Svelte.z
 					</p>
-					<a href='https://madr.io/'>
+					<a href='https://madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
 				</div>

@@ -34,10 +34,10 @@ const TodoApp = () => {
 						JavaScript fundamentals, and gave me another opportunity to
 						configure Babel and Webpack on a project.
 					</p>
-					<a href='https://todoapp.madr.io/'>
+					<a href='https://todoapp.madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/todoapp'>
+					<a href='https://github.com/MaDrCloudDev/todoapp' target="_blank">
 						<SmallButton text='Code' />
 					</a>
 				</div>

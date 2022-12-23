@@ -120,6 +120,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 								</div>
 							</li>
 							<a
+								target="_blank"
 								className='hover:text-yellow-400'
 								href='https://www.linkedin.com/in/matthew-drish-920440241'
 								onClick={() => setOpen(false)}>
@@ -140,6 +141,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 								</li>
 							</a>
 							<a
+								target="_blank"
 								className='hover:text-yellow-400'
 								href='https://github.com/MaDrCloudDev'
 								onClick={() => setOpen(false)}>
@@ -160,6 +162,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 								</li>
 							</a>
 							<a
+								target="_blank"
 								className='hover:text-yellow-400'
 								href='mailto:MaDrCloudDev@outlook.com'
 								onClick={() => setOpen(false)}>
@@ -180,6 +183,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 								</li>
 							</a>
 							<a
+								target="_blank"
 								className='hover:text-yellow-400'
 								href='https://1drv.ms/b/s!AlMWEDAJ82TdgR6YC7RaqHAVPXMN?e=hXG5UJ'
 								onClick={() => setOpen(false)}>

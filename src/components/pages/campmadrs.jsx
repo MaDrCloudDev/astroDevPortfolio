@@ -48,7 +48,7 @@ const CampMaDrs = () => {
 						campgrounds, I decided to use the app to showcase one of my favorite
 						digital artists, Alena Aenami.
 					</p>
-					<a href='https://campmadrs.onrender.com/'>
+					<a href='https://campmadrs.onrender.com/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
 				</div>

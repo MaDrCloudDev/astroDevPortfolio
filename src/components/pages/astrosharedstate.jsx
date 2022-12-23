@@ -39,10 +39,10 @@ const AstroSharedState = () => {
 						between frameworks in Astro, or anyone incrementally updating their
 						Astro site from one framework to another.
 					</p>
-					<a href='https://astrosharedstate.netlify.app/'>
+					<a href='https://astrosharedstate.netlify.app/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/astrosharedstate'>
+					<a href='https://github.com/MaDrCloudDev/astrosharedstate' target="_blank">
 						<SmallButton text='Code' />
 					</a>
 				</div>

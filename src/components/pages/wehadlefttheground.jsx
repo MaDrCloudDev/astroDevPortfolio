@@ -30,10 +30,10 @@ const WeHadLeftTheGround = () => {
 						I adapted it into a poem for fun. The poem embodies my feelings
 						towards my career transition into full-stack web development.
 					</p>
-					<a href='https://wehadlefttheground.madr.io/'>
+					<a href='https://wehadlefttheground.madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/weHadLeftTheGround'>
+					<a href='https://github.com/MaDrCloudDev/weHadLeftTheGround' target="_blank">
 						<SmallButton text='Code' />
 					</a>
 				</div>

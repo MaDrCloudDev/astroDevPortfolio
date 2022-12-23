@@ -41,10 +41,10 @@ const SimpleWeatherApp = () => {
 						(e.g., "Portland" will always reference Portland, OR, not Portland,
 						ME. And cities like Dinosaur, CO don't provide data).
 					</p>
-					<a href='https://simpleweatherapp.madr.io/'>
+					<a href='https://simpleweatherapp.madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/simpleWeatherApp'>
+					<a href='https://github.com/MaDrCloudDev/simpleWeatherApp' target="_blank">
 						<SmallButton text='Code' />
 					</a>
 				</div>

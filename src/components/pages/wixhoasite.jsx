@@ -30,7 +30,7 @@ const WixHoaSite = () => {
 						Wix and WordPress websites. This is a Wix website I built for a
 						local homeowner association.
 					</p>
-					<a href='https://matthewdrish.wixsite.com/mdwebdevhoacopy'>
+					<a href='https://matthewdrish.wixsite.com/mdwebdevhoacopy' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
 				</div>

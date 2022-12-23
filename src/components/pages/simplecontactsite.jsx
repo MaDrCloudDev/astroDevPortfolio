@@ -37,10 +37,10 @@ const SimpleContactSite = () => {
 						frameworks like Vanta.js, and has helped me hone my personal design
 						philosophy of &quot;simplicity over complexity&quot;.
 					</p>
-					<a href='https://simplecontactsite.madr.io/'>
+					<a href='https://simplecontactsite.madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/simpleContactSite'>
+					<a href='https://github.com/MaDrCloudDev/simpleContactSite' target="_blank">
 						<SmallButton text='Code' />
 					</a>
 				</div>

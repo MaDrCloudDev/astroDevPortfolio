@@ -34,7 +34,7 @@ const GoalsMaDr = () => {
 						Building this app helped me get my feet wet with Redux and improve
 						my understanding of state management. Live site goalsMaDr
 					</p>
-					<a href='https://goalsmadr.onrender.com/'>
+					<a href='https://goalsmadr.onrender.com/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
 				</div>

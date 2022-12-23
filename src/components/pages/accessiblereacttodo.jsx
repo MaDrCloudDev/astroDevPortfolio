@@ -40,10 +40,10 @@ const AccessibleReactTodo = () => {
 						This project isn&apos;t connected to local storage or a database, so
 						todos do not save.
 					</p>
-					<a href='https://accessiblereacttodo.madr.io/'>
+					<a href='https://accessiblereacttodo.madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/accessiblereacttodo'>
+					<a href='https://github.com/MaDrCloudDev/accessiblereacttodo' target="_blank">
 						<SmallButton text='Code' />
 					</a>
 				</div>

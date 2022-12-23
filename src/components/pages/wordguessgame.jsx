@@ -34,10 +34,10 @@ const WordGuessGame = () => {
 						solution.
 					</p>
 					<p>The app requires a keyboard for input and is desktop only.</p>
-					<a href='https://wordguessgame.madr.io/'>
+					<a href='https://wordguessgame.madr.io/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/wordguessgame'>
+					<a href='https://github.com/MaDrCloudDev/wordguessgame' target="_blank">
 						<SmallButton text='Code' />
 					</a>
 				</div>

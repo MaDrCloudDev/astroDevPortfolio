@@ -52,7 +52,7 @@ const Portfolio = () => {
 						and I simply created a second Navbar component for my pages instead
 						of changing CSS based on route.
 					</p>
-					<a href='https://madr.blog/'>
+					<a href='https://madr.blog/' target="_blank">
 						<SmallButton text='Demo' />
 					</a>
 				</div>
