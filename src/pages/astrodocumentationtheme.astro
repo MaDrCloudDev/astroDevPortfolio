@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NavbarPages from "../components/NavbarPages";
+import AstroDocumentationTheme from "../components/pages/astrodocumentationtheme";
+---
+
+<Layout title='astroDocumentationTheme | MaDr'>
+	<NavbarPages client:only='react' />
+	<AstroDocumentationTheme />
+</Layout>

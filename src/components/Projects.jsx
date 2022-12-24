@@ -24,6 +24,12 @@ const Projects = () => {
 						frameWorks='Astro'
 					/>
 					<ProjectItem
+						title='astroDocumentationTheme'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astrodocumentationtheme.webp'
+						projectUrl='/astrodocumentationtheme'
+						frameWorks='Astro'
+					/>
+					<ProjectItem
 						title='astroSharedState'
 						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astrosharedstate.webp'
 						projectUrl='/astrosharedstate'
