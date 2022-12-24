@@ -1,4 +1,4 @@
-import SmallButton from '../SmallButton';
+import SmallButton from "../SmallButton";
 
 const AccessibleReactTodo = () => {
 	return (
@@ -36,14 +36,23 @@ const AccessibleReactTodo = () => {
 						accurately targets the input field, returning to the
 						&quot;Edit&quot; button after the edit is made.
 					</p>
+					<p className='mb-4'>
+						When a task is deleted, the focus returns to the 'tasks remaining'
+						string, so the number of remaining tasks can be read aloud by a
+						screen reader.
+					</p>
 					<p>
 						This project isn&apos;t connected to local storage or a database, so
 						todos do not save.
 					</p>
-					<a href='https://accessiblereacttodo.madr.io/' target="_blank">
+					<a
+						href='https://accessiblereacttodo.madr.io/'
+						target='_blank'>
 						<SmallButton text='Demo' />
 					</a>
-					<a href='https://github.com/MaDrCloudDev/accessiblereacttodo' target="_blank">
+					<a
+						href='https://github.com/MaDrCloudDev/accessiblereacttodo'
+						target='_blank'>
 						<SmallButton text='Code' />
 					</a>
 				</div>
