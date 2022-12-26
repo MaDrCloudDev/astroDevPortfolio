@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CallingCard from "../components/pages/callingcard";
+import NavbarPages from "../components/NavbarPages";
+---
+
+<Layout title='callingCard | MaDr'>
+	<NavbarPages client:only='react' />
+	<CallingCard />
+</Layout>

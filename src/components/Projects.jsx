@@ -1,4 +1,4 @@
-import ProjectItem from '../components/ProjectItem';
+import ProjectItem from "../components/ProjectItem";
 
 const Projects = () => {
 	return (
@@ -12,7 +12,7 @@ const Projects = () => {
 				<h2 className='py-4'>What I&apos;ve Developed</h2>
 				<div className='grid md:grid-cols-2 gap-8'>
 					<ProjectItem
-						title='AccessibleReactTodo'
+						title='accessibleReactTodo'
 						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/accessiblereacttodo.webp'
 						projectUrl='/accessiblereacttodo'
 						frameWorks='React'
@@ -36,10 +36,10 @@ const Projects = () => {
 						frameWorks='Astro / React / SolidJS / Svelte / Vue / AlpineJS'
 					/>
 					<ProjectItem
-						title='simpleContactSite'
-						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simplecontactsite.webp'
-						projectUrl='/simplecontactsite'
-						frameWorks='CSS / HTML / JavaScript / Vanta.js'
+						title='callingCard'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/callingcard.webp'
+						projectUrl='/callingcard'
+						frameWorks='Astro'
 					/>
 					<ProjectItem
 						title='campMaDrs'
@@ -76,6 +76,12 @@ const Projects = () => {
 						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/notflix.webp'
 						projectUrl='/notflix'
 						frameWorks='Firebase / React / Tailwind'
+					/>
+					<ProjectItem
+						title='simpleContactSite'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simplecontactsite.webp'
+						projectUrl='/simplecontactsite'
+						frameWorks='CSS / HTML / JavaScript / Vanta.js'
 					/>
 					<ProjectItem
 						title='simpleWeatherApp'
