@@ -9,7 +9,7 @@ const movieWebsite = () => {
 					className='absolute z-[-500]'
 					layout='fill'
 					// objectFit='cover'
-					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/movieWebsite.webp'
+					src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/moviewebsite.webp'
 					alt='/'
 				/>
 				<div className='absolute text-3xl font-bold  top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2'>

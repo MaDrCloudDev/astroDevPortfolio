@@ -66,16 +66,16 @@ const Projects = () => {
 						frameWorks='Next.js / Tailwind'
 					/>
 					<ProjectItem
+						title='movieWebsite'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/moviewebsite.webp'
+						projectUrl='/moviewebsite'
+						frameWorks='Firebase / React / Tailwind'
+					/>
+					<ProjectItem
 						title='notesApp'
 						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrnotesapp.webp'
 						projectUrl='/notesapp'
 						frameWorks='CSS / HTML / JavaScript'
-					/>
-					<ProjectItem
-						title='movieWebsite'
-						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/movieWebsite.webp'
-						projectUrl='/movieWebsite'
-						frameWorks='Firebase / React / Tailwind'
 					/>
 					<ProjectItem
 						title='simpleContactSite'
