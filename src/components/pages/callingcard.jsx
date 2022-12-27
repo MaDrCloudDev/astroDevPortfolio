@@ -24,6 +24,7 @@ const CallingCard = () => {
 						My modern calling-card contact site using the cool 3D parallax
 						effect from the header of{" "}
 						<a
+							target='_blank'
 							className='text-yellow-400'
 							href='https://astro.build'>
 							Astro's official site
@@ -33,24 +34,28 @@ const CallingCard = () => {
 					<p className='mb-4'>
 						I was previously using my{" "}
 						<a
+							target='_blank'
 							className='text-yellow-400'
 							href='https://simplecontactsite.madr.io'>
 							simpleContactSite
 						</a>{" "}
 						as my "calling card". I wanted something more modern so I refactored{" "}
 						<a
+							target='_blank'
 							className='text-yellow-400'
 							href='https://github.com/paabloLC/astro-neumorphism'>
 							Astro Neumorphism
 						</a>{" "}
 						by{" "}
 						<a
+							target='_blank'
 							className='text-yellow-400'
 							href='https://github.com/paabloLC'>
 							paabloLC
 						</a>
 						. It uses the same 3D parallax effect you can see in{" "}
 						<a
+							target='_blank'
 							className='text-yellow-400'
 							href='https://astro.build'>
 							Astro's official website header
