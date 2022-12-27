@@ -72,9 +72,9 @@ const Projects = () => {
 						frameWorks='CSS / HTML / JavaScript'
 					/>
 					<ProjectItem
-						title='Notflix'
-						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/notflix.webp'
-						projectUrl='/notflix'
+						title='movieWebsite'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/movieWebsite.webp'
+						projectUrl='/movieWebsite'
 						frameWorks='Firebase / React / Tailwind'
 					/>
 					<ProjectItem

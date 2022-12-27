@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import MovieWebsite from "../components/pages/moviewebsite";
+import NavbarPages from "../components/NavbarPages";
+---
+
+<Layout title='movieWebsite | MaDr'>
+	<NavbarPages client:only='react' />
+	<MovieWebsite />
+</Layout>
