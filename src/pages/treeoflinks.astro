@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import TreeOfLinks from "../components/pages/treeoflinks";
+import NavbarPages from "../components/NavbarPages";
+---
+
+<Layout title='treeOfLinks | MaDr'>
+	<NavbarPages client:only='react' />
+	<TreeOfLinks />
+</Layout>

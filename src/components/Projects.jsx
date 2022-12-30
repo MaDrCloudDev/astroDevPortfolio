@@ -54,12 +54,6 @@ const Projects = () => {
 						frameWorks='Express / MongoDB / Node.js / React'
 					/>
 					<ProjectItem
-						title='MaDr.io'
-						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrio.webp'
-						projectUrl='/madrio'
-						frameWorks='Svelte / tsParticles'
-					/>
-					<ProjectItem
 						title='MaDrPortfolio'
 						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrportfolio.webp'
 						projectUrl='/portfolio'
@@ -100,6 +94,12 @@ const Projects = () => {
 						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrtodoapp.webp'
 						projectUrl='/todoapp'
 						frameWorks='CSS / HTML / JavaScript'
+					/>
+					<ProjectItem
+						title='treeOfLinks'
+						backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/treeoflinks.webp'
+						projectUrl='/treeoflinks'
+						frameWorks='Svelte / tsParticles'
 					/>
 					<ProjectItem
 						title='weHadLeftTheGround'
