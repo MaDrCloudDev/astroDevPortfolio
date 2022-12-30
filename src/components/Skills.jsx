@@ -28,6 +28,21 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<img
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/markdown.png'
+									alt='/'
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Markdown</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<img
 									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/css.png'
 									alt='/'
 									width='64'
@@ -73,14 +88,29 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/markdown.png'
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/linux.png'
 									alt='/'
 									width='64'
 									height='64'
 								/>
 							</div>
 							<div className='flex flex-col items-center justify-center'>
-								<h3>Markdown</h3>
+								<h3>Linux</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<img
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/github.png'
+									alt='/'
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>GitHub</h3>
 							</div>
 						</div>
 					</div>
@@ -163,6 +193,66 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<img
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/trpc.png'
+									alt='/'
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>tRPC</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<img
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/prisma.png'
+									alt='/'
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Prisma</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<img
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/tailwind.png'
+									alt='/'
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Tailwind</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<img
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/planetscale.png'
+									alt='/'
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>PlanetScale</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<img
 									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/svelte.png'
 									alt='/'
 									width='64'
@@ -186,141 +276,6 @@ const Skills = () => {
 							</div>
 							<div className='flex flex-col items-center justify-center'>
 								<h3>Astro</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
-						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/tailwind.png'
-									alt='/'
-									width='64'
-									height='64'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>Tailwind</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
-						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/prisma.png'
-									alt='/'
-									width='64'
-									height='64'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>Prisma</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
-						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/trpc.png'
-									alt='/'
-									width='64'
-									height='64'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>tRPC</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
-						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/planetscale.png'
-									alt='/'
-									width='64'
-									height='64'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>PlanetScale</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
-						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/jamstack.png'
-									alt='/'
-									width='64'
-									height='64'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>Jamstack</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
-						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/figma.png'
-									alt='/'
-									width='64'
-									height='64'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>Figma</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
-						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/adobeillustrator.png'
-									alt='/'
-									width='64'
-									height='64'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>Adobe Illustrator</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
-						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/linux.png'
-									alt='/'
-									width='64'
-									height='64'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>Linux</h3>
-							</div>
-						</div>
-					</div>
-					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
-						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-							<div className='m-auto'>
-								<img
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/github.png'
-									alt='/'
-									width='64'
-									height='64'
-								/>
-							</div>
-							<div className='flex flex-col items-center justify-center'>
-								<h3>GitHub</h3>
 							</div>
 						</div>
 					</div>
@@ -366,6 +321,51 @@ const Skills = () => {
 							</div>
 							<div className='flex flex-col items-center justify-center'>
 								<h3>Cloudflare</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<img
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/jamstack.png'
+									alt='/'
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Jamstack</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<img
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/figma.png'
+									alt='/'
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Figma</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<img
+									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/adobeillustrator.png'
+									alt='/'
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Adobe Illustrator</h3>
 							</div>
 						</div>
 					</div>
