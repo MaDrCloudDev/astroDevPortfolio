@@ -1,4 +1,4 @@
-import SmallButton from '../SmallButton';
+import SmallButton from "../SmallButton";
 
 const Portfolio = () => {
 	return (
@@ -28,10 +28,10 @@ const Portfolio = () => {
 					<p className='mb-4'>
 						I originally built this portfolio in Next.js to get a better handle
 						on Next 13 as I move towards developing more apps in Vercel's
-						ecosystem. You can view that version here:{' '}
+						ecosystem. You can view that version here:{" "}
 						<a href='https://nextjsportfolio.madr.io/'>
 							<span className='text-yellow-400'>Next.js version</span>.
-						</a>{' '}
+						</a>{" "}
 						While experiencing no problems in production or hosting the app on
 						Vercel, I ran into too many incompatibilities with Next Image
 						components and hosting Next 13 on Cloudflare.
@@ -52,7 +52,9 @@ const Portfolio = () => {
 						and I simply created a second Navbar component for my pages instead
 						of changing CSS based on route.
 					</p>
-					<a href='https://madr.blog/' target="_blank">
+					<a
+						href='https://madr.io/'
+						target='_blank'>
 						<SmallButton text='Demo' />
 					</a>
 				</div>
