@@ -5,7 +5,7 @@ import SmallButton from "../components/SmallButton.astro";
 import RedButton from "../components/RedButton.astro";
 ---
 
-<Layout title='MaDrPortfolio | MaDr'>
+<Layout title='notesApp | MaDr'>
 	<NavbarPages client:only='react' />
 	<div class='w-full overflow-hidden'>
 		<div class='w-screen h-[50vh] relative'>
@@ -23,7 +23,6 @@ import RedButton from "../components/RedButton.astro";
 		</div>
 		<div class='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 			<div class='col-span-4'>
-				<p class='text-xl font-bold text-yellow-400 mb-4'>Description</p>
 				<p class='mb-4'>
 					My modern visual portfolio built with Astro, React components, &
 					Tailwind
@@ -48,38 +47,52 @@ import RedButton from "../components/RedButton.astro";
 				</p>
 				<a
 					href='https://madr.io/'
-					target='_blank'>
+					target='_blank'
+					rel='noreferrer'>
 					<SmallButton text='Demo' />
 				</a>
-				<a href=''>
-					<RedButton text='Code Private' />
+				<a
+					href=''
+					rel='noreferrer'>
+					<RedButton text='Private Code' />
+				</a>
+			</div>
+			<div
+				class='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
+				<div class='p-2'>
+					<p class='text-center font-bold pb-2 text-yellow-400'>Technologies</p>
+					<div class='grid grid-cols-3 md:grid-cols-1'>
+						<p class='text-gray-200 py-2 flex items-center'>
+							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							Astro
+						</p>
+						<p class='text-gray-200 py-2 flex items-center'>
+							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							Headless UI
+						</p>
+						<p class='text-gray-200 py-2 flex items-center'>
+							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							React
+						</p>
+						<p class='text-gray-200 py-2 flex items-center'>
+							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							Tailwind
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class='flex w-[225%] justify-between'>
+				<a href='/#projects'>
+					<p class='text-xl font-bold underline cursor-pointer text-yellow-400'>
+						&larr; Back to all projects
+					</p>
+				</a>
+				<a href='/simplecontactsite'>
+					<p class='text-xl font-bold underline cursor-pointer text-yellow-400'>
+						&rarr; Next project
+					</p>
 				</a>
 			</div>
 		</div>
-		<div
-			class='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
-			<div class='p-2'>
-				<p class='text-center font-bold pb-2 text-yellow-400'>Technologies</p>
-				<div class='grid grid-cols-3 md:grid-cols-1'>
-					<p class='text-gray-200 py-2 flex items-center'>
-						<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
-						Astro
-					</p>
-					<p class='text-gray-200 py-2 flex items-center'>
-						<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
-						React
-					</p>
-					<p class='text-gray-200 py-2 flex items-center'>
-						<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
-						Tailwind
-					</p>
-				</div>
-			</div>
-		</div>
-		<a href='/#projects'>
-			<p class='text-xl font-bold underline cursor-pointer text-yellow-400'>
-				← Back
-			</p>
-		</a>
 	</div>
 </Layout>

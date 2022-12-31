@@ -1,15 +1,15 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const Carousel = () => {
 	const slides = [
 		{
-			url: 'https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign3.webp',
+			url: "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign3.webp",
 		},
 		{
-			url: 'https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign2.webp',
+			url: "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign2.webp",
 		},
 		{
-			url: 'https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign.webp',
+			url: "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign.webp",
 		},
 	];
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -33,7 +33,7 @@ const Carousel = () => {
 			<div
 				className='absolute top-[50%] left-5 text-6xl p-2 cursor-pointer text-yellow-400 bg-black/70'
 				onClick={prevSlide}>
-				←
+				&larr;
 			</div>
 			{/* right arrow */}
 			<div

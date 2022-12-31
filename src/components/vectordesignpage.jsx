@@ -53,11 +53,18 @@ const VectorDesign = () => {
 						</div>
 					</div>
 				</div>
-				<a href='/#projects'>
-					<p className='text-xl font-bold underline cursor-pointer text-yellow-400'>
-						← Back
-					</p>
-				</a>
+				<div class='flex w-[225%] justify-between'>
+					<a href='/#projects'>
+						<p class='text-xl font-bold underline cursor-pointer text-yellow-400'>
+							&larr; Back to all projects
+						</p>
+					</a>
+					<a href='/wehadlefttheground'>
+						<p class='text-xl font-bold underline cursor-pointer text-yellow-400'>
+							&rarr; Next project
+						</p>
+					</a>
+				</div>
 			</div>
 		</div>
 	);
