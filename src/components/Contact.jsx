@@ -1,4 +1,4 @@
-import Button from './Button';
+import Button from "./Button";
 
 const Contact = () => {
 	return (
@@ -36,7 +36,9 @@ const Contact = () => {
 									Connect With Me
 								</p>
 								<div className='flex items-center justify-between py-4'>
-									<a href='mailto:MaDrCloudDev@outlook.com' target="_blank">
+									<a
+										href='mailto:MaDrCloudDev@outlook.com'
+										target='_blank'>
 										<div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
 												className='h-4 w-4'
@@ -52,7 +54,9 @@ const Contact = () => {
 											</svg>
 										</div>
 									</a>
-									<a href='https://www.linkedin.com/in/matthew-drish-920440241' target="_blank">
+									<a
+										href='https://www.linkedin.com/in/matthew-drish-920440241'
+										target='_blank'>
 										<div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
 												className='h-4 w-4'
@@ -68,7 +72,9 @@ const Contact = () => {
 											</svg>
 										</div>
 									</a>
-									<a href='https://www.github.com/MaDrCloudDev/' target="_blank">
+									<a
+										href='https://www.github.com/MaDrCloudDev/'
+										target='_blank'>
 										<div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
 												className='h-4 w-4'
@@ -84,7 +90,9 @@ const Contact = () => {
 											</svg>
 										</div>
 									</a>
-									<a href='https://1drv.ms/b/s!AlMWEDAJ82TdgR6YC7RaqHAVPXMN?e=hXG5UJ' target="_blank">
+									<a
+										href='https://1drv.ms/b/s!AlMWEDAJ82TdgR6YC7RaqHAVPXMN?e=hXG5UJ'
+										target='_blank'>
 										<div className='rounded-full  shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
 												className='h-4 w-4'

@@ -1,7 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import NavbarPages from "../components/NavbarPages";
-import SmallButton from "../components/SmallButton";
+import SmallButton from "../components/SmallButton.astro";
+import RedButton from "../components/RedButton.astro";
 ---
 
 <Layout title='MaDrPortfolio | MaDr'>
@@ -35,7 +36,7 @@ import SmallButton from "../components/SmallButton";
 					<a href='https://nextjsportfolio.madr.io/'>
 						<span class='text-yellow-400'>Next.js version</span>.
 					</a>{" "}
-					While experiencing no problems in production or hosting the app on Vercel,
+					While experiencing no problems in production hosting the app on Vercel,
 					I ran into too many incompatibilities with Next Image components and hosting
 					Next 13 on Cloudflare.
 				</p>
@@ -45,47 +46,40 @@ import SmallButton from "../components/SmallButton";
 					HeadlessUI, and pieced together a much cleaner, much faster version of
 					my new portfolio. It's still a work in progress.
 				</p>
-				<p>
-					In time, I plan to migrate the JSX pages to Astro pages, leaving only
-					the actual components as JSX. Some unique challenges I encountered
-					included: How to implement icons with on-hover effects in without
-					access to React/Icons, and how to conditionally change CSS based on
-					route without access to useEffect on Next/Router. I ended up using
-					inline SVGs with on-hover fill changes for the icons, and I simply
-					created a second Navbar component for my pages instead of changing CSS
-					based on route.
-				</p>
 				<a
 					href='https://madr.io/'
 					target='_blank'>
 					<SmallButton text='Demo' />
 				</a>
+				<a href=''>
+					<RedButton text='Code Private' />
+				</a>
 			</div>
-			<div
-				class='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
-				<div class='p-2'>
-					<p class='text-center font-bold pb-2 text-yellow-400'>Technologies</p>
-					<div class='grid grid-cols-3 md:grid-cols-1'>
-						<p class='text-gray-200 py-2 flex items-center'>
-							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
-							Astro
-						</p>
-						<p class='text-gray-200 py-2 flex items-center'>
-							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
-							React
-						</p>
-						<p class='text-gray-200 py-2 flex items-center'>
-							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
-							Tailwind
-						</p>
-					</div>
+		</div>
+		<div
+			class='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
+			<div class='p-2'>
+				<p class='text-center font-bold pb-2 text-yellow-400'>Technologies</p>
+				<div class='grid grid-cols-3 md:grid-cols-1'>
+					<p class='text-gray-200 py-2 flex items-center'>
+						<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+						Astro
+					</p>
+					<p class='text-gray-200 py-2 flex items-center'>
+						<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+						React
+					</p>
+					<p class='text-gray-200 py-2 flex items-center'>
+						<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+						Tailwind
+					</p>
 				</div>
 			</div>
-			<a href='/#projects'>
-				<p class='text-xl font-bold underline cursor-pointer text-yellow-400'>
-					← Back
-				</p>
-			</a>
 		</div>
+		<a href='/#projects'>
+			<p class='text-xl font-bold underline cursor-pointer text-yellow-400'>
+				← Back
+			</p>
+		</a>
 	</div>
 </Layout>
