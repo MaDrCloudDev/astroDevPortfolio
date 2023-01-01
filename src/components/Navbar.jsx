@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import Sidebar from './Sidebar.jsx';
+import { useState, useEffect } from "react";
+import Sidebar from "./Sidebar.jsx";
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
@@ -13,15 +13,17 @@ const Navbar = () => {
 				setShadow(false);
 			}
 		};
-		window.addEventListener('scroll', handleShadow);
+		window.addEventListener("scroll", handleShadow);
 	}, []);
+
+	const prevDef = () => event.preventDefault();
 
 	return (
 		<header
 			className={
 				shadow
-					? 'fixed w-full h-20 shadow-lg shadow-gray-700 z-[100] bg-black'
-					: 'fixed w-full h-20 z-[100] bg-black'
+					? "fixed w-full h-20 shadow-lg shadow-gray-700 z-[100] bg-black"
+					: "fixed w-full h-20 z-[100] bg-black"
 			}>
 			<div className='flex py-5 px-3 text-xl'>
 				<div className='flex items-center'>

@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import Sidebar from './Sidebar.jsx';
+import { useState, useEffect } from "react";
+import Sidebar from "./Sidebar.jsx";
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
