@@ -38,9 +38,7 @@ const VectorDesign = () => {
 				</div>
 				<div className='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
 					<div className='p-2'>
-						<p className='text-center font-bold pb-2 text-yellow-400'>
-							Technologies
-						</p>
+						<p className='text-center font-bold pb-2 text-yellow-400'>Tech</p>
 						<div className='grid grid-cols-3 md:grid-cols-1'>
 							<p className='text-gray-200 py-2 flex items-center'>
 								<bullet className='text-4xl mr-2 text-blue-600'>&bull;</bullet>
