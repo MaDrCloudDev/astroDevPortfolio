@@ -1,3 +1,3 @@
-# [MaDrPortfolio](https://MaDr.io)
+# [astroDevPortfolio](https://astrodevportfolio.MaDr.io/)
 
-My modern visual portfolio built with Astro, React components, &amp; Tailwind
+A modern visual portfolio built with Astro, Svelte, &amp; React components, w/ Tailwind
