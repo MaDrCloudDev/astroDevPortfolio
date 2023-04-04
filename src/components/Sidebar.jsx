@@ -124,7 +124,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 							<a
 								target='_blank'
 								className='hover:text-yellow-400'
-								href='https://www.linkedin.com/in/matthew-drish-920440241'
+								href='https://madr.io/'
 								onClick={() => setOpen(false)}>
 								<li>
 									{" "}
@@ -166,7 +166,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 							<a
 								target='_blank'
 								className='hover:text-yellow-400'
-								href='mailto:MaDrCloudDev@outlook.com'
+								href='https://madr.io/'
 								onClick={() => setOpen(false)}>
 								<li>
 									{" "}
@@ -187,7 +187,7 @@ const Sidebar = ({ open = false, setOpen }) => {
 							<a
 								target='_blank'
 								className='hover:text-yellow-400'
-								href='https://1drv.ms/b/s!AlMWEDAJ82TdgR6YC7RaqHAVPXMN?e=hXG5UJ'
+								href='https://github.com/MaDrCloudDev'
 								onClick={() => setOpen(false)}>
 								<li>
 									{" "}

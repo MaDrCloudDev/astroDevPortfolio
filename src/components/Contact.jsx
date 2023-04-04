@@ -17,7 +17,7 @@ const Contact = () => {
 							<div>
 								<img
 									className='rounded-xl shadow-lg shadow-gray-700  hover:scale-105 ease-in duration-200'
-									src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/contact.jpg'
+									src='/contact.jpg'
 									alt='/'
 									width={981}
 									height={654}
@@ -37,7 +37,7 @@ const Contact = () => {
 								</p>
 								<div className='flex items-center justify-between py-4'>
 									<a
-										href='mailto:MaDrCloudDev@outlook.com'
+										href='https://madr.io/'
 										target='_blank'>
 										<div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
@@ -55,7 +55,7 @@ const Contact = () => {
 										</div>
 									</a>
 									<a
-										href='https://www.linkedin.com/in/matthew-drish-920440241'
+										href='https://madr.io/'
 										target='_blank'>
 										<div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
@@ -91,7 +91,7 @@ const Contact = () => {
 										</div>
 									</a>
 									<a
-										href='https://1drv.ms/b/s!AlMWEDAJ82TdgR6YC7RaqHAVPXMN?e=hXG5UJ'
+										href='https://github.com/MaDrCloudDev'
 										target='_blank'>
 										<div className='rounded-full  shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-200 hover:border-yellow-400 hover:text-yellow-400'>
 											<svg
@@ -117,7 +117,7 @@ const Contact = () => {
 					<div className='col-span-3 w-full h-auto shadow-lg shadow-gray-700 rounded-xl lg:p-4'>
 						<div className='p-4'>
 							<form
-								action='https://getform.io/f/3f002cfb-f7eb-41f4-9999-aa827599f60a'
+								action='https://getform.io/'
 								method='POST'
 								encType='multipart/form-data'>
 								<div className='grid md:grid-cols-2 gap-4 w-full py-2'>
