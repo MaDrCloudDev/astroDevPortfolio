@@ -13,22 +13,16 @@ const VectorDesign = () => {
 					alt='/'
 				/>
 				<div className='absolute text-3xl font-bold  top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2'>
-					<h2 className='py-2 text-yellow-400'>Vector Design</h2>
+					<h2 className='py-2 text-yellow-400'>vectorDesign</h2>
 					<h3>Adobe Illustrator / Figma</h3>
 				</div>
 			</div>
 			<div className='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 				<div className='col-span-4'>
 					<p className='text-xl font-bold text-yellow-400 mb-4'>Description</p>
-					<p className='mb-4'>
-						Some of my vectorization & vector design samples
-					</p>
+					<p className='mb-4'>vectorDesign project</p>
 					<h2 className='text-lg text-blue-600 mb-4'>Overview</h2>
-					<p>
-						Since I first started building websites in the late 90&apos;s using
-						Yahoo! GeoCities, I&apos;ve long had a passion for designing vector
-						logos and vectorizing existing logos.
-					</p>
+					<p>vectorDesign description.</p>
 					{/* <div className=''>
 						<img src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign2.webp' />
 						<img src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign3.webp' />
