@@ -1,122 +1,22 @@
 ---
 import ProjectItem from "../components/ProjectItem.astro";
+
+import projects from "../../public/projects.json";
 ---
 
-<div
-	id='projects'
-	class='w-full mt-20'>
-	<div class='max-w-[1240px] mx-auto px-2 py-16'>
-		<p class='text-xl tracking-widest uppercase text-blue-600'>Projects</p>
-		<h2 class='py-4'>What I&apos;ve Developed</h2>
-		<div class='grid md:grid-cols-2 gap-8'>
-			<ProjectItem
-				title='accessibleReactTodo'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/accessiblereacttodo.webp'
-				projectUrl='/accessiblereacttodo'
-				frameWorks='React'
-			/>
-			<ProjectItem
-				title='astroConversion'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astroconversion.webp'
-				projectUrl='/astroconversion'
-				frameWorks='Astro'
-			/>
-			<ProjectItem
-				title='astroDocumentationTheme'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astrodocumentationtheme.webp'
-				projectUrl='/astrodocumentationtheme'
-				frameWorks='Astro'
-			/>
-			<ProjectItem
-				title='astroSharedState'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astrosharedstate.webp'
-				projectUrl='/astrosharedstate'
-				frameWorks='Astro / React / SolidJS / Svelte / Vue / AlpineJS'
-			/>
-			<ProjectItem
-				title='callingCard'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/callingcard.webp'
-				projectUrl='/callingcard'
-				frameWorks='Astro'
-			/>
-			<ProjectItem
-				title='campMaDrs'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/campmadrs.webp'
-				projectUrl='/campmadrs'
-				frameWorks='Bootstrap / Cloudinary / EJS / Express/ Mapbox / MongoDB / Node.js / Passport'
-			/>
-			<ProjectItem
-				title='goalsMaDr'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/goalsmadr.webp'
-				projectUrl='/goalsmadr'
-				frameWorks='Express / MongoDB / Node.js / React'
-			/>
-			<ProjectItem
-				title='MaDrPortfolio'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrportfolio.webp'
-				projectUrl='/portfolio'
-				frameWorks='Next.js / Tailwind'
-			/>
-			<ProjectItem
-				title='movieWebsite'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/moviewebsite.webp'
-				projectUrl='/moviewebsite'
-				frameWorks='Firebase / React / Tailwind'
-			/>
-			<ProjectItem
-				title='notesApp'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrnotesapp.webp'
-				projectUrl='/notesapp'
-				frameWorks='CSS / HTML / JavaScript'
-			/>
-			<ProjectItem
-				title='simpleContactSite'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simplecontactsite.webp'
-				projectUrl='/simplecontactsite'
-				frameWorks='CSS / HTML / JavaScript / Vanta.js'
-			/>
-			<ProjectItem
-				title='simpleWeatherApp'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simpleweatherapp.webp'
-				projectUrl='/simpleweatherapp'
-				frameWorks='CSS / React'
-			/>
-			<ProjectItem
-				title='t3StackList'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/t3stacklist.webp'
-				projectUrl='/t3stacklist'
-				frameWorks='Next.js / Prisma / PlanetScale / Tailwind / tRPC / TypeScript'
-			/>
-			<ProjectItem
-				title='todoApp'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrtodoapp.webp'
-				projectUrl='/todoapp'
-				frameWorks='CSS / HTML / JavaScript'
-			/>
-			<ProjectItem
-				title='treeOfLinks'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/treeoflinks.webp'
-				projectUrl='/treeoflinks'
-				frameWorks='Svelte / tsParticles'
-			/>
-			<ProjectItem
-				title='weHadLeftTheGround'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/wehadlefttheground.webp'
-				projectUrl='/wehadlefttheground'
-				frameWorks='CSS / HTML / JavaScript'
-			/>
-			<ProjectItem
-				title='wordGuessGame'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrwordguessgame.webp'
-				projectUrl='/wordguessgame'
-				frameWorks='CSS / HTML / Javascript'
-			/>
-			<ProjectItem
-				title='Vector Design'
-				backgroundImg='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign.webp'
-				projectUrl='/vectordesign'
-				frameWorks='Adobe Illustrator / Figma'
-			/>
-		</div>
-	</div>
+<div id="projects" class="w-full mt-20">
+    <div class="max-w-[1240px] mx-auto px-2 py-16">
+        <p class="text-xl tracking-widest uppercase text-blue-600">Projects</p>
+        <h2 class="py-4">What I've Developed</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            {projects.map(project => (
+                <ProjectItem
+                    title={project.title}
+                    backgroundImg={project.backgroundImg}
+                    projectUrl={project.projectUrl}
+                    frameWorks={project.frameWorks}
+                />
+            ))}
+        </div>
+    </div>
 </div>

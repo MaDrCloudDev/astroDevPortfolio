@@ -1,0 +1,110 @@
+[
+    {
+      "title": "accessibleReactTodo",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/accessiblereacttodo.webp",
+      "projectUrl": "/accessiblereacttodo",
+      "frameWorks": "React"
+    },
+    {
+      "title": "astroConversion",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astroconversion.webp",
+      "projectUrl": "/astroconversion",
+      "frameWorks": "Astro"
+    },
+    {
+      "title": "astroDocumentationTheme",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astrodocumentationtheme.webp",
+      "projectUrl": "/astrodocumentationtheme",
+      "frameWorks": "Astro"
+    },
+    {
+      "title": "astroSharedState",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astrosharedstate.webp",
+      "projectUrl": "/astrosharedstate",
+      "frameWorks": "Astro / React / SolidJS / Svelte / Vue / AlpineJS"
+    },
+    {
+      "title": "callingCard",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/callingcard.webp",
+      "projectUrl": "/callingcard",
+      "frameWorks": "Astro"
+    },
+    {
+      "title": "campMaDrs",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/campmadrs.webp",
+      "projectUrl": "/campmadrs",
+      "frameWorks": "Bootstrap / Cloudinary / EJS / Express/ Mapbox / MongoDB / Node.js / Passport"
+    },
+    {
+      "title": "goalsMaDr",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/goalsmadr.webp",
+      "projectUrl": "/goalsmadr",
+      "frameWorks": "Express / MongoDB / Node.js / React"
+    },
+    {
+      "title": "MaDrPortfolio",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrportfolio.webp",
+      "projectUrl": "/portfolio",
+      "frameWorks": "Next.js / Tailwind"
+    },
+    {
+      "title": "movieWebsite",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/moviewebsite.webp",
+      "projectUrl": "/moviewebsite",
+      "frameWorks": "Firebase / React / Tailwind"
+    },
+    {
+      "title": "notesApp",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrnotesapp.webp",
+      "projectUrl": "/notesapp",
+      "frameWorks": "CSS / HTML / JavaScript"
+    },
+    {
+      "title": "simpleContactSite",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simplecontactsite.webp",
+      "projectUrl": "/simplecontactsite",
+      "frameWorks": "CSS / HTML / JavaScript / Vanta.js"
+    },
+    {
+      "title": "simpleWeatherApp",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simpleweatherapp.webp",
+      "projectUrl": "/simpleweatherapp",
+      "frameWorks": "CSS / React"
+    },
+    {
+      "title": "t3StackList",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/t3stacklist.webp",
+      "projectUrl": "/t3stacklist",
+      "frameWorks": "Next.js / Prisma / PlanetScale / Tailwind / tRPC / TypeScript"
+    },
+    {
+      "title": "todoApp",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrtodoapp.webp",
+      "projectUrl": "/todoapp",
+      "frameWorks": "CSS / HTML / JavaScript"
+    },
+    {
+      "title": "treeOfLinks",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/treeoflinks.webp",
+      "projectUrl": "/treeoflinks",
+      "frameWorks": "Svelte / tsParticles"
+    },
+    {
+      "title": "weHadLeftTheGround",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/wehadlefttheground.webp",
+      "projectUrl": "/wehadlefttheground",
+      "frameWorks": "CSS / HTML / JavaScript"
+    },
+    {
+      "title": "wordGuessGame",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrwordguessgame.webp",
+      "projectUrl": "/wordguessgame",
+      "frameWorks": "CSS / HTML / JavaScript"
+    },
+    {
+      "title": "Vector Design",
+      "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign.webp",
+      "projectUrl": "/vectordesign",
+      "frameWorks": "Adobe Illustrator / Figma"
+    }
+  ]  
