@@ -1,0 +1,42 @@
+---
+import Linkedin from './icons/linkedin.astro';
+import Github from './icons/github.astro';
+import Email from './icons/email.astro';
+import Resume from './icons/resume.astro';
+import NewButton from './NewButton.astro';
+---
+
+<div class='flex flex-col'>
+	<a
+		href='https://madr.io/'
+		target='_blank'
+		rel='noopener noreferrer'>
+		<NewButton>
+			<Linkedin />
+		</NewButton>
+	</a>
+	<a
+		href='https://github.com/MaDrCloudDev'
+		target='_blank'
+		rel='noopener noreferrer'>
+		<NewButton>
+			<Github />
+		</NewButton>
+	</a>
+	<a
+		href='https://madr.io/'
+		target='_blank'
+		rel='noopener noreferrer'>
+		<NewButton>
+			<Email />
+		</NewButton>
+	</a>
+	<a
+		href='https://github.com/MaDrCloudDev'
+		target='_blank'
+		rel='noopener noreferrer'>
+		<NewButton>
+			<Resume />
+		</NewButton>
+	</a>
+</div>

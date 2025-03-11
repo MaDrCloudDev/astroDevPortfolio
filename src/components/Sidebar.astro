@@ -1,0 +1,113 @@
+---
+import Socials2 from '../components/Socials2.astro';
+
+interface Props {
+	id?: string;
+}
+
+const { id = 'sidebar' } = Astro.props;
+---
+
+<aside
+	id={id}
+	class='fixed inset-y-0 right-0 z-50 w-64 bg-black transform translate-x-full transition-transform duration-300 ease-in-out'>
+	<div class='p-4'>
+		<div class='flex justify-between'>
+			<img
+				src='/madr.svg'
+				alt=''
+			/>
+			<button
+				id='close-button'
+				aria-label='Close Menu'
+				class='hover:text-yellow-400 cursor-pointer'>
+				<svg
+					width='24'
+					height='24'
+					viewBox='0 0 24 24'
+					fill='currentColor'
+					xmlns='http://www.w3.org/2000/svg'>
+					<path
+						d='M18 6L6 18M6 6L18 18'
+						stroke='currentColor'
+						stroke-width='2'
+						stroke-linecap='round'
+						stroke-linejoin='round'
+					></path>
+				</svg>
+			</button>
+		</div>
+
+		<nav class='mt-8 ml-4'>
+			<div class='text-center border-b border-blue-400'>
+				<span
+					id='decor'
+					class='text-sm text-yellow-400'>
+					Let's build the web together
+				</span>
+			</div>
+			<ul class='space-y-4 mt-4'>
+				<li>
+					<a
+						href='/'
+						class='text-white hover:text-yellow-400'
+						>Home</a
+					>
+				</li>
+				<li>
+					<a
+						href='/#about'
+						class='text-white hover:text-yellow-400'
+						>About</a
+					>
+				</li>
+				<li>
+					<a
+						href='/#skills'
+						class='text-white hover:text-yellow-400'
+						>Skills</a
+					>
+				</li>
+				<li>
+					<a
+						href='/#projects'
+						class='text-white hover:text-yellow-400'
+						>Projects</a
+					>
+				</li>
+				<li>
+					<a
+						href='/#contact'
+						class='text-white hover:text-yellow-400'
+						>Contact</a
+					>
+				</li>
+			</ul>
+		</nav>
+		<div class='text-center border-b border-blue-400'>
+			<span
+				id='decor'
+				class='text-sm text-yellow-400'>
+				Connect
+			</span>
+		</div>
+		<Socials2 />
+	</div>
+</aside>
+
+<script>
+	// Add event listener after the component is mounted
+	document.addEventListener('DOMContentLoaded', () => {
+		const closeButton = document.getElementById('close-button');
+		const sidebar = document.getElementById('sidebar');
+		const menuButton = document.getElementById('menu-button');
+
+		if (closeButton && sidebar && menuButton) {
+			closeButton.addEventListener('click', () => {
+				sidebar.classList.add('translate-x-full');
+				sidebar.classList.remove('translate-x-0');
+				menuButton.setAttribute('aria-expanded', 'false');
+			});
+		}
+	});
+</script>

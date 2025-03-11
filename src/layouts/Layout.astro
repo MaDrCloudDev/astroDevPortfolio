@@ -5,45 +5,30 @@ export interface Props {
 
 const { title } = Astro.props;
 
-import "../styles/global.css";
+import '../styles/global.css';
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang='en'>
 	<head>
 		<meta charset='UTF-8' />
 		<meta
 			name='viewport'
-			content='width=device-width, initial-scale=1.0'
+			content='width=device-width'
 		/>
-		<!-- <link
-			rel='stylesheet'
-			href='src/layouts/global.css'
-		/> -->
 		<link
 			rel='icon'
 			type='image/svg'
 			sizes='any'
 			href='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/MaDrLogo.svg'
 		/>
-		<!-- displays site properly based on user's device -->
+		<meta
+			name='generator'
+			content={Astro.generator}
+		/>
 		<title>{title}</title>
-		<!-- Google tag (gtag.js) -->
-		<script async src='https://www.googletagmanager.com/gtag/js?id=G-VD5R0Q00Y4'
-		></script>
-		<!-- Google tag (gtag.js) -->
 	</head>
-
-	<body class='text-white bg-black z-0'>
+	<body class='bg-black text-white'>
 		<slot />
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
-
-			gtag("config", "G-VD5R0Q00Y4");
-		</script>
 	</body>
 </html>

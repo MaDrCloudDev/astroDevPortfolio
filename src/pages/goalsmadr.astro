@@ -1,29 +1,37 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import NavbarPages from "../components/NavbarPages";
-import SmallButton from "../components/SmallButton.astro";
-import RedButton from "../components/RedButton.astro";
+import Layout from '../layouts/Layout.astro';
+import NavbarPages from '../components/NavbarPages.astro';
+import SmallButton from '../components/SmallButton.astro';
+import RedButton from '../components/RedButton.astro';
+import Pagination from '../components/Pagination.astro';
 ---
 
 <Layout title='goalsMaDr | MaDr'>
-	<NavbarPages client:only='react' />
+	<NavbarPages />
 	<div class='w-full overflow-hidden'>
 		<div class='w-screen h-[50vh] relative'>
-			<div class='absolute top-0 left-0 w-full h-[50vh] z-5 bg-black/60'></div>
+			<div
+				class='absolute top-0 left-0 w-full h-[50vh] z-5 bg-black/60'>
+			</div>
 			<img
-				class='absolute z-[-500]'
+				class='absolute z-[-500] left-[50%] top-0 translate-x-[-50%] w-auto h-full object-cover'
 				src='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/goalsmadr.webp'
 				alt='/'
 			/>
 			<div
-				class='absolute text-3xl font-bold top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2'>
-				<h2 class='py-2 text-yellow-400'>goalsMaDr</h2>
-				<h3>Express / MongoDB / Node.js / React</h3>
+				class='absolute text-3xl font-bold top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2 z-100'>
+				<p
+					class='inline-block bg-black text-white px-2 py-1 rounded-md'>
+					<h2 class='py-2 text-yellow-400'>goalsMaDr</h2>
+					<h3>Express / MongoDB / Node.js / React</h3>
+				</p>
 			</div>
 		</div>
 		<div class='mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 bg-black'>
 			<div class='col-span-4'>
-				<p class='text-xl font-bold text-yellow-400 mb-4'>Description</p>
+				<p class='text-xl font-bold text-yellow-400 mb-4'>
+					Description
+				</p>
 				<p class='mb-4'>goalsMaDr project</p>
 				<h2 class='text-lg text-blue-600 mb-4'>Overview</h2>
 				<p>goalsMaDr description.</p>
@@ -40,49 +48,50 @@ import RedButton from "../components/RedButton.astro";
 			<div
 				class='col-span-4 md:col-span-1 shadow-lg shadow-gray-700 rounded-xl p-4'>
 				<div class='p-2'>
-					<p class='text-center font-bold pb-2 text-yellow-400'>Tech</p>
+					<p class='text-center font-bold pb-2 text-yellow-400'>
+						Tech
+					</p>
 					<div class='grid grid-cols-3 md:grid-cols-1'>
 						<p class='text-gray-200 py-2 flex items-center'>
-							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							<bullet class='text-4xl mr-2 text-blue-600'
+								>&bull;</bullet
+							>
 							Axios
 						</p>
 						<p class='text-gray-200 py-2 flex items-center'>
-							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							<bullet class='text-4xl mr-2 text-blue-600'
+								>&bull;</bullet
+							>
 							Express
 						</p>
 						<p class='text-gray-200 py-2 flex items-center'>
-							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							<bullet class='text-4xl mr-2 text-blue-600'
+								>&bull;</bullet
+							>
 							MongoDB
 						</p>
 						<p class='text-gray-200 py-2 flex items-center'>
-							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							<bullet class='text-4xl mr-2 text-blue-600'
+								>&bull;</bullet
+							>
 							Mongoose
 						</p>
 						<p class='text-gray-200 py-2 flex items-center'>
-							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							<bullet class='text-4xl mr-2 text-blue-600'
+								>&bull;</bullet
+							>
 							Node.js
 						</p>
 						<p class='text-gray-200 py-2 flex items-center'>
-							<bullet class='text-4xl mr-2 text-blue-600'>&bull;</bullet>
+							<bullet class='text-4xl mr-2 text-blue-600'
+								>&bull;</bullet
+							>
 							React
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class='flex w-[225%] justify-between'>
-				<a href='/#projects'>
-					<p
-						class='text-xl font-bold underline cursor-pointer text-yellow-400 hover:text-blue-600'>
-						&larr; Back to all projects
-					</p>
-				</a>
-				<a href='/portfolio'>
-					<p
-						class='text-xl font-bold underline cursor-pointer text-yellow-400 hover:text-blue-600'>
-						Next project &rarr;
-					</p>
-				</a>
-			</div>
 		</div>
 	</div>
+	<Pagination nextProject='moviewebsite' />
 </Layout>

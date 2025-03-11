@@ -1,23 +1,20 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Navbar from "../components/Navbar";
-import Main from "../components/Main.astro";
-import GhStats from "../components/GhStats.astro";
-import About from "../components/About.astro";
-import Skills from "../components/Skills.astro";
-import Projects from "../components/Projects.astro";
-import Contact from "../components/Contact";
-import "../styles/global.css";
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Main from '../components/Main.astro';
+import GhStats from '../components/GhStats.astro';
+import About from '../components/About.astro';
+import Skills from '../components/Skills.astro';
+import Projects from '../components/Projects.astro';
+import Contact from '../components/Contact.astro';
 ---
 
 <Layout title='astroDevPortfolio | MaDr'>
-	<container className='container'>
-		<Navbar client:only='react' />
-		<Main />
-		<GhStats />
-		<About />
-		<Skills />
-		<Projects />
-		<Contact client:only='react' />
-	</container>
+	<Navbar />
+	<Main />
+	<GhStats />
+	<About />
+	<Skills />
+	<Projects />
+	<Contact />
 </Layout>

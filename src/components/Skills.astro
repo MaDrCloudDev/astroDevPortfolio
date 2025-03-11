@@ -3,31 +3,37 @@ import skills from '../../public/skills.json';
 const skillsData = skills || [];
 ---
 
-<div id='skills' class='w-full lg:h-screen p-2'>
-    <div class='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p class='text-xl tracking-widest uppercase text-blue-600'>Skills</p>
-        <h2 class='py-4'>Tech I Use</h2>
-        <div class='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-            {skillsData.map((skill, index) => (
-                <div
-                    class='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default'
-                    data-key={index}
-                >
-                    <div class='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div class='m-auto'>
-                            <img
-                                src={skill.image}
-                                alt={skill.name}
-                                width='64'
-                                height='64'
-                            />
-                        </div>
-                        <div class='flex flex-col items-center justify-center'>
-                            <h3>{skill.name}</h3>
-                        </div>
-                    </div>
-                </div>
-            ))}
-        </div>
-    </div>
+<div
+	id='skills'
+	class='w-full lg:h-screen p-2'>
+	<div
+		class='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+		<p class='text-xl tracking-widest uppercase text-blue-600'>
+			Skills
+		</p>
+		<h2 class='py-4'>Tech I Use</h2>
+		<div class='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+			{
+				skillsData.map((skill, index) => (
+					<div
+						data-key={index}
+						class='p-6 shadow-lg shadow-gray-700 rounded-xl hover:scale-105 ease-in duration-300 hover:text-yellow-400 hover:text-xl hover:font-bold cursor-default hover:shadow-yellow-400'>
+						<div class='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div class='m-auto'>
+								<img
+									src={skill.image}
+									alt={skill.name}
+									width='64'
+									height='64'
+								/>
+							</div>
+							<div class='flex flex-col items-center justify-center'>
+								<h3>{skill.name}</h3>
+							</div>
+						</div>
+					</div>
+				))
+			}
+		</div>
+	</div>
 </div>

@@ -1,11 +1,11 @@
 # [astroDevPortfolio](https://astrodevportfolio.MaDr.io/)
 
-A modern visual portfolio I built with Astro, Svelte &amp; React components, w/ Tailwind.
+The second, updated version of a modern visual portfolio I built with Astro, Astro components, and Tailwind. Originally built in Next.js - the performance of the final product wasn't great, so I migrated it all over to Astro; producing faster, less resource-dependent site.
 
-This use to be my portfolio before SvelteKit released, when I switched over, and abandoned the long, anchor-page approach. I had built it in Next.js first, but the performance of the final product wasn't great. The Astro version came out much cleaner and faster.
+This used to be my portfolio before I switched over to SvelteKit, abandoneding the long, anchor-page approach.
 
 ```
-npm i
-npm run dev
-npm run build
+pnpm i
+pnpm run dev
+pnpm run build
 ```
