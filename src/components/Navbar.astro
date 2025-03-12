@@ -1,9 +1,7 @@
 ---
 import Sidebar from './Sidebar.astro';
-
 let open = false;
 let shadow = false;
-
 interface Props {}
 ---
 
@@ -23,7 +21,7 @@ interface Props {}
 		</div>
 		<div class='flex-grow flex items-center z-20'>
 			<ul class='hidden lg:flex lg:space-x-7 lg:ml-14'>
-				<a href='/'>
+				<a href='/#home'>
 					<li class='hover:text-yellow-400 transition-colors'>
 						Home
 					</li>
@@ -56,60 +54,72 @@ interface Props {}
 				aria-expanded='false'
 				aria-controls='sidebar'
 				aria-label='Open Menu'
-				class='lg:hidden'>
+				class='lg:hidden group transition-opacity duration-300 cursor-pointer'>
 				<span class='sr-only'>Menu</span>
 				<div
-					class='w-8 h-0.5 bg-white mb-2 transition-colors hover:bg-yellow-400'>
+					class='w-8 h-0.5 bg-white mb-2 group-hover:bg-yellow-400 transition-colors'>
 				</div>
 				<div
-					class='w-8 h-0.5 bg-white mb-2 transition-colors hover:bg-yellow-400'>
+					class='w-8 h-0.5 bg-white mb-2 group-hover:bg-yellow-400 transition-colors'>
 				</div>
 				<div
-					class='w-8 h-0.5 bg-white transition-colors hover:bg-yellow-400'>
+					class='w-8 h-0.5 bg-white group-hover:bg-yellow-400 transition-colors'>
 				</div>
 			</button>
 		</div>
 	</div>
 	<Sidebar id='sidebar' />
 </header>
-
 <script>
-	const menuButton = document.getElementById('menu-button');
-	const sidebar = document.getElementById('sidebar');
-	const navbar = document.getElementById('navbar');
+	document.addEventListener('DOMContentLoaded', () => {
+		const menuButton = document.getElementById('menu-button');
+		const sidebar = document.getElementById('sidebar');
+		const navbar = document.getElementById('navbar');
 
-	function handleShadow() {
-		if (!navbar) return;
-		if (window.scrollY >= 90) {
-			navbar.classList.add('shadow-lg', 'shadow-gray-700');
-		} else {
-			navbar.classList.remove('shadow-lg', 'shadow-gray-700');
-		}
-	}
-
-	window.addEventListener('scroll', handleShadow);
-
-	function openSidebar() {
-		if (!sidebar || !menuButton) return;
-		sidebar.setAttribute('data-open', 'true');
-		menuButton.setAttribute('aria-expanded', 'true');
-	}
-
-	function closeSidebar() {
-		if (!sidebar || !menuButton) return;
-		sidebar.setAttribute('data-open', 'false');
-		menuButton.setAttribute('aria-expanded', 'false');
-	}
-
-	if (menuButton) {
-		menuButton.addEventListener('click', () => {
-			if (!sidebar) return;
-			const isOpen = sidebar.getAttribute('data-open') === 'true';
-			if (isOpen) {
-				closeSidebar();
+		function handleShadow() {
+			if (!navbar) return;
+			if (window.scrollY >= 90) {
+				navbar.classList.add('shadow-lg', 'shadow-gray-700');
 			} else {
-				openSidebar();
+				navbar.classList.remove('shadow-lg', 'shadow-gray-700');
 			}
-		});
-	}
+		}
+
+		window.addEventListener('scroll', handleShadow);
+
+		function toggleSidebar() {
+			if (!sidebar || !menuButton) return;
+
+			if (sidebar.classList.contains('translate-x-0')) {
+				// Close sidebar
+				sidebar.classList.add('translate-x-full');
+				sidebar.classList.remove('translate-x-0');
+				menuButton.setAttribute('aria-expanded', 'false');
+				menuButton.style.opacity = '1'; // Show the menu button again
+			} else {
+				// Open sidebar
+				sidebar.classList.remove('translate-x-full');
+				sidebar.classList.add('translate-x-0');
+				menuButton.setAttribute('aria-expanded', 'true');
+				menuButton.style.opacity = '0'; // Hide the menu button
+			}
+		}
+
+		if (menuButton) {
+			menuButton.addEventListener('click', toggleSidebar);
+		}
+
+		// Handle close button from sidebar
+		const closeButton = document.getElementById('close-button');
+		if (closeButton && menuButton) {
+			closeButton.addEventListener('click', () => {
+				if (sidebar && menuButton) {
+					sidebar.classList.add('translate-x-full');
+					sidebar.classList.remove('translate-x-0');
+					menuButton.setAttribute('aria-expanded', 'false');
+					menuButton.style.opacity = '1'; // Show the menu button again when sidebar is closed
+				}
+			});
+		}
+	});
 </script>

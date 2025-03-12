@@ -20,7 +20,7 @@ const { id = 'sidebar' } = Astro.props;
 			<button
 				id='close-button'
 				aria-label='Close Menu'
-				class='hover:text-yellow-400 cursor-pointer'>
+				class='hover:text-red-400 cursor-pointer'>
 				<svg
 					width='24'
 					height='24'
@@ -84,7 +84,7 @@ const { id = 'sidebar' } = Astro.props;
 				</li>
 			</ul>
 		</nav>
-		<div class='text-center border-b border-blue-400'>
+		<div class='text-center border-b border-blue-400 mt-5'>
 			<span
 				id='decor'
 				class='text-sm text-yellow-400'>
@@ -107,6 +107,28 @@ const { id = 'sidebar' } = Astro.props;
 				sidebar.classList.add('translate-x-full');
 				sidebar.classList.remove('translate-x-0');
 				menuButton.setAttribute('aria-expanded', 'false');
+				menuButton.style.opacity = '1';
+			});
+		}
+
+		// Add click event listeners to all navigation links in the sidebar
+		if (sidebar) {
+			const sidebarLinks = sidebar.querySelectorAll('nav a');
+			sidebarLinks.forEach((link) => {
+				link.addEventListener('click', () => {
+					// Allow the default navigation to occur
+					setTimeout(() => {
+						// Close the sidebar after a slight delay to ensure navigation happens
+						sidebar.classList.add('translate-x-full');
+						sidebar.classList.remove('translate-x-0');
+
+						// Make the menu button visible again
+						if (menuButton) {
+							menuButton.setAttribute('aria-expanded', 'false');
+							menuButton.style.opacity = '1';
+						}
+					}, 100);
+				});
 			});
 		}
 	});
