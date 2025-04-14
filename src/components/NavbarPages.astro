@@ -1,13 +1,10 @@
 ---
-// Import the Sidebar component
 import Sidebar from './Sidebar.astro';
-// In Astro, we don't need to use React's useState/useEffect
-// We can define any variables or data directly in the frontmatter (this section)
+import Pagination from './Pagination.astro';
 let open = false;
-// Client-side scripts go in the frontmatter or in a separate script tag
 ---
 
-<header class='fixed w-full h-20 z-[100]'>
+<header class='fixed w-full h-20 z-[100] bg-black'>
 	<div class='flex py-5 px-3'>
 		<div class='flex items-center pt-3'>
 			<a href='/'>
@@ -18,6 +15,7 @@ let open = false;
 				/>
 			</a>
 		</div>
+		<Pagination />
 		<div class='flex-grow flex items-center z-20'></div>
 		<div class='flex items-center'>
 			<button
