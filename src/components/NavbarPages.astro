@@ -1,6 +1,5 @@
 ---
 import Sidebar from "./Sidebar.astro";
-let open = false;
 ---
 
 <header class="fixed w-full h-20 z-[100] bg-black">
@@ -13,11 +12,11 @@ let open = false;
     <div class="flex-grow flex items-center z-20"></div>
     <div class="flex items-center">
       <button
-        class="cursor-pointer"
         id="menu-button"
         aria-expanded="false"
         aria-controls="sidebar"
         aria-label="Open Menu"
+        class="cursor-pointer"
       >
         <svg
           class="h-8 w-8 fill-current hover:text-yellow-400"
@@ -31,41 +30,42 @@ let open = false;
       <Sidebar id="sidebar" />
     </div>
   </div>
-</header>
 
-<script>
-  // Client-side JavaScript for handling the sidebar
-  document.addEventListener("DOMContentLoaded", () => {
+  <script is:inline client:load>
     const menuButton = document.getElementById("menu-button");
     const sidebar = document.getElementById("sidebar");
+    const closeButton = sidebar.querySelector("#close-button");
 
-    // Function to open the sidebar
     function openSidebar() {
-      if (sidebar && menuButton) {
-        sidebar.classList.remove("translate-x-full");
-        sidebar.classList.add("translate-x-0");
-        menuButton.setAttribute("aria-expanded", "true");
-      }
+      sidebar.classList.remove("translate-x-full");
+      sidebar.classList.add("translate-x-0");
+      menuButton.setAttribute("aria-expanded", "true");
+      menuButton.style.opacity = "0";
     }
 
-    // Function to close the sidebar
     function closeSidebar() {
-      if (sidebar && menuButton) {
-        sidebar.classList.add("translate-x-full");
-        sidebar.classList.remove("translate-x-0");
-        menuButton.setAttribute("aria-expanded", "false");
-      }
+      sidebar.classList.add("translate-x-full");
+      sidebar.classList.remove("translate-x-0");
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.style.opacity = "1";
     }
 
-    // Add event listener to button
-    if (menuButton && sidebar) {
-      menuButton.addEventListener("click", () => {
-        if (sidebar.classList.contains("translate-x-full")) {
-          openSidebar();
-        } else {
-          closeSidebar();
-        }
+    menuButton.addEventListener("click", () => {
+      if (sidebar.classList.contains("translate-x-full")) {
+        openSidebar();
+      } else {
+        closeSidebar();
+      }
+    });
+
+    closeButton.addEventListener("click", closeSidebar);
+
+    // Close sidebar on nav link click inside sidebar
+    const sidebarLinks = sidebar.querySelectorAll("nav a");
+    sidebarLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        setTimeout(closeSidebar, 100);
       });
-    }
-  });
-</script>
+    });
+  </script>
+</header>
