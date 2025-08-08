@@ -1,75 +1,71 @@
 ---
-import Sidebar from './Sidebar.astro';
-import Pagination from './Pagination.astro';
+import Sidebar from "./Sidebar.astro";
 let open = false;
 ---
 
-<header class='fixed w-full h-20 z-[100] bg-black'>
-	<div class='flex py-5 px-3'>
-		<div class='flex items-center pt-3'>
-			<a href='/'>
-				<img
-					class='h-10'
-					src='/MaDrLogo.svg'
-					alt='MaDr Logo'
-				/>
-			</a>
-		</div>
-		<Pagination />
-		<div class='flex-grow flex items-center z-20'></div>
-		<div class='flex items-center'>
-			<button
-				class='cursor-pointer'
-				id='menu-button'
-				aria-expanded='false'
-				aria-controls='sidebar'
-				aria-label='Open Menu'>
-				<svg
-					class='h-8 w-8 fill-current hover:text-yellow-400'
-					width='32'
-					height='18'
-					xmlns='http://www.w3.org/2000/svg'>
-					<path d='M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z'></path>
-				</svg>
-			</button>
-			<Sidebar id='sidebar' />
-		</div>
-	</div>
+<header class="fixed w-full h-20 z-[100] bg-black">
+  <div class="flex py-5 px-3">
+    <div class="flex items-center pt-3">
+      <a href="/">
+        <img class="h-10" src="/MaDrLogo.svg" alt="MaDr Logo" />
+      </a>
+    </div>
+    <div class="flex-grow flex items-center z-20"></div>
+    <div class="flex items-center">
+      <button
+        class="cursor-pointer"
+        id="menu-button"
+        aria-expanded="false"
+        aria-controls="sidebar"
+        aria-label="Open Menu"
+      >
+        <svg
+          class="h-8 w-8 fill-current hover:text-yellow-400"
+          width="32"
+          height="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z"></path>
+        </svg>
+      </button>
+      <Sidebar id="sidebar" />
+    </div>
+  </div>
 </header>
 
 <script>
-	// Client-side JavaScript for handling the sidebar
-	document.addEventListener('DOMContentLoaded', () => {
-		const menuButton = document.getElementById('menu-button');
-		const sidebar = document.getElementById('sidebar');
+  // Client-side JavaScript for handling the sidebar
+  document.addEventListener("DOMContentLoaded", () => {
+    const menuButton = document.getElementById("menu-button");
+    const sidebar = document.getElementById("sidebar");
 
-		// Function to open the sidebar
-		function openSidebar() {
-			if (sidebar && menuButton) {
-				sidebar.classList.remove('translate-x-full');
-				sidebar.classList.add('translate-x-0');
-				menuButton.setAttribute('aria-expanded', 'true');
-			}
-		}
+    // Function to open the sidebar
+    function openSidebar() {
+      if (sidebar && menuButton) {
+        sidebar.classList.remove("translate-x-full");
+        sidebar.classList.add("translate-x-0");
+        menuButton.setAttribute("aria-expanded", "true");
+      }
+    }
 
-		// Function to close the sidebar
-		function closeSidebar() {
-			if (sidebar && menuButton) {
-				sidebar.classList.add('translate-x-full');
-				sidebar.classList.remove('translate-x-0');
-				menuButton.setAttribute('aria-expanded', 'false');
-			}
-		}
+    // Function to close the sidebar
+    function closeSidebar() {
+      if (sidebar && menuButton) {
+        sidebar.classList.add("translate-x-full");
+        sidebar.classList.remove("translate-x-0");
+        menuButton.setAttribute("aria-expanded", "false");
+      }
+    }
 
-		// Add event listener to button
-		if (menuButton && sidebar) {
-			menuButton.addEventListener('click', () => {
-				if (sidebar.classList.contains('translate-x-full')) {
-					openSidebar();
-				} else {
-					closeSidebar();
-				}
-			});
-		}
-	});
+    // Add event listener to button
+    if (menuButton && sidebar) {
+      menuButton.addEventListener("click", () => {
+        if (sidebar.classList.contains("translate-x-full")) {
+          openSidebar();
+        } else {
+          closeSidebar();
+        }
+      });
+    }
+  });
 </script>
