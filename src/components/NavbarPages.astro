@@ -4,9 +4,9 @@ import Sidebar from "./Sidebar.astro";
 
 <header class="fixed w-full h-20 z-[100] bg-black">
   <div class="flex py-5 px-3">
-    <div class="flex items-center pt-3">
+    <div class="flex items-center">
       <a href="/">
-        <img class="h-10" src="/MaDrLogo.svg" alt="MaDr Logo" />
+        <img src="/MaDrLogo.svg" alt="MaDr Logo" class="h-10 w-auto object-contain block" />
       </a>
     </div>
     <div class="flex-grow flex items-center z-20"></div>
@@ -31,7 +31,7 @@ import Sidebar from "./Sidebar.astro";
     </div>
   </div>
 
-  <script is:inline client:load>
+  <script is:inline>
     const menuButton = document.getElementById("menu-button");
     const sidebar = document.getElementById("sidebar");
     const closeButton = sidebar.querySelector("#close-button");

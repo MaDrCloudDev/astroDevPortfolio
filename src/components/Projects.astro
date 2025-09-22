@@ -10,10 +10,10 @@ type Project = {
 };
 ---
 
-<div id="projects" class="w-full mt-20">
+<section id="projects" class="w-full mt-20" aria-labelledby="projects-heading">
   <div class="max-w-[1240px] mx-auto px-2 py-16">
     <p class="text-xl tracking-widest uppercase text-blue-600">Projects</p>
-    <h2 class="py-4">What I've Developed</h2>
+    <h2 id="projects-heading" class="py-4">What I've Developed</h2>
     <div class="grid md:grid-cols-2 gap-8">
       {
         projects.map((project: Project) => (
@@ -28,4 +28,4 @@ type Project = {
       }
     </div>
   </div>
-</div>
+  </section>

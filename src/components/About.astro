@@ -2,15 +2,12 @@
 
 ---
 
-<section
-	id='about'
-	class='w-full md:h-screen py-16 px-4 flex items-center'>
+
+<section id='about' class='w-full md:h-screen py-16 px-4 flex items-center' aria-labelledby='about-heading'>
 	<div class='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
 		<div class='col-span-2'>
-			<p class='uppercase text-xl tracking-widest text-blue-600'>
-				About
-			</p>
-			<h2 class='py-4 text-2xl font-semibold'>Who Am I?</h2>
+			<p class='uppercase text-xl tracking-widest text-blue-600'>About</p>
+			<h2 id='about-heading' class='py-4 text-2xl font-semibold'>Who Am I?</h2>
 			<p class='py-2 text-gray-200'>
 				A passionate progressive web app user and builder, I'm devoted
 				to cloud and browser-based tools.
@@ -38,8 +35,11 @@
 			<img
 				class='rounded-xl'
 				src='/about.jpg'
-				alt='A profile picture of the developer'
+				alt='Portrait of Matt, full-stack web developer'
 				width={200}
+				height={200}
+				loading='lazy'
+				decoding='async'
 			/>
 		</div>
 	</div>

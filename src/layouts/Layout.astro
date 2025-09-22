@@ -12,23 +12,21 @@ import '../styles/global.css';
 <html lang='en'>
 	<head>
 		<meta charset='UTF-8' />
-		<meta
-			name='viewport'
-			content='width=device-width'
-		/>
-		<link
-			rel='icon'
-			type='image/svg'
-			sizes='any'
-			href='https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/MaDrLogo.svg'
-		/>
-		<meta
-			name='generator'
-			content={Astro.generator}
-		/>
+		<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover' />
+		<link rel='icon' href='/favicon.svg' type='image/svg+xml' />
+		<link rel='icon' href='/favicon.ico' sizes='any' />
+		<meta name='generator' content={Astro.generator} />
+		<meta name='description' content='Personal developer portfolio – projects, skills, and ways to get in touch.' />
+		<meta name='theme-color' content='#000000' />
+		<meta property='og:type' content='website' />
+		<meta property='og:title' content={title} />
+		<meta property='og:description' content='Personal developer portfolio – projects, skills, and ways to get in touch.' />
+		<meta property='og:image' content='/madr.svg' />
+		<meta name='twitter:card' content='summary_large_image' />
 		<title>{title}</title>
 	</head>
 	<body class='bg-black text-white'>
+		<a href="#home" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:bg-yellow-400 focus:text-black focus:px-3 focus:py-2 focus:rounded">Skip to content</a>
 		<slot />
 	</body>
 </html>

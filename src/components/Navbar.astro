@@ -1,125 +1,142 @@
 ---
 import Sidebar from './Sidebar.astro';
-let open = false;
-let shadow = false;
-interface Props {}
 ---
 
-<header
-	id='navbar'
-	class={`fixed w-full h-20 z-[100] bg-black ${
-		shadow ? 'shadow-lg shadow-gray-700' : ''
-	}`}>
-	<div class='flex py-5 px-3 text-xl'>
-		<div class='flex items-center'>
-			<a href='/'>
-				<img
-					src='/MaDrLogoSmall.svg'
-					alt='MaDr Logo'
-				/>
-			</a>
-		</div>
-		<div class='flex-grow flex items-center z-20'>
-			<ul class='hidden lg:flex lg:space-x-7 lg:ml-14'>
-				<a href='/#home'>
-					<li class='hover:text-yellow-400 transition-colors'>
-						Home
-					</li>
-				</a>
-				<a href='/#about'>
-					<li class='hover:text-yellow-400 transition-colors'>
-						About
-					</li>
-				</a>
-				<a href='/#skills'>
-					<li class='hover:text-yellow-400 transition-colors'>
-						Skills
-					</li>
-				</a>
-				<a href='/#projects'>
-					<li class='hover:text-yellow-400 transition-colors'>
-						Projects
-					</li>
-				</a>
-				<a href='/#contact'>
-					<li class='hover:text-yellow-400 transition-colors'>
-						Contact
-					</li>
-				</a>
-			</ul>
-		</div>
-		<div class='flex items-center'>
-			<button
-				id='menu-button'
-				aria-expanded='false'
-				aria-controls='sidebar'
-				aria-label='Open Menu'
-				class='lg:hidden group transition-opacity duration-300 cursor-pointer'>
-				<span class='sr-only'>Menu</span>
-				<div
-					class='w-8 h-0.5 bg-white mb-2 group-hover:bg-yellow-400 transition-colors'>
-				</div>
-				<div
-					class='w-8 h-0.5 bg-white mb-2 group-hover:bg-yellow-400 transition-colors'>
-				</div>
-				<div
-					class='w-8 h-0.5 bg-white group-hover:bg-yellow-400 transition-colors'>
-				</div>
-			</button>
-		</div>
-	</div>
-	<Sidebar id='sidebar' />
+<header id='navbar' class={`fixed w-full h-20 z-[100] bg-black`}>
+    <nav aria-label='Primary' class='flex py-5 px-3 text-xl'>
+        <div class='flex items-center'>
+            <a href='/' aria-label='Home'>
+                <img src='/MaDrLogo.svg' alt='MaDr Logo' class='h-10 w-auto object-contain block' />
+            </a>
+        </div>
+        <div class='flex-grow flex items-center z-20'>
+            <ul class='hidden lg:flex lg:space-x-7 lg:ml-14'>
+                <li>
+                    <a href='/#home' class='hover:text-yellow-400 transition-colors'>Home</a>
+                </li>
+                <li>
+                    <a href='/#about' class='hover:text-yellow-400 transition-colors'>About</a>
+                </li>
+                <li>
+                    <a href='/#skills' class='hover:text-yellow-400 transition-colors'>Skills</a>
+                </li>
+                <li>
+                    <a href='/#projects' class='hover:text-yellow-400 transition-colors'>Projects</a>
+                </li>
+                <li>
+                    <a href='/#contact' class='hover:text-yellow-400 transition-colors'>Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class='flex items-center'>
+            <button
+                id='menu-button'
+                aria-expanded='false'
+                aria-controls='sidebar'
+                aria-label='Open Menu'
+                class='lg:hidden group transition-opacity duration-300 cursor-pointer'
+            >
+                <span class='sr-only'>Menu</span>
+                <div class='w-8 h-0.5 bg-white mb-2 group-hover:bg-yellow-400 transition-colors'></div>
+                <div class='w-8 h-0.5 bg-white mb-2 group-hover:bg-yellow-400 transition-colors'></div>
+                <div class='w-8 h-0.5 bg-white group-hover:bg-yellow-400 transition-colors'></div>
+            </button>
+        </div>
+    </nav>
+    <Sidebar id='sidebar' />
 </header>
 <script>
-	document.addEventListener('DOMContentLoaded', () => {
-		const menuButton = document.getElementById('menu-button');
-		const sidebar = document.getElementById('sidebar');
-		const navbar = document.getElementById('navbar');
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuButton = document.getElementById('menu-button');
+        const sidebar = document.getElementById('sidebar');
+        const navbar = document.getElementById('navbar');
 
-		function handleShadow() {
-			if (!navbar) return;
-			if (window.scrollY >= 90) {
-				navbar.classList.add('shadow-lg', 'shadow-gray-700');
-			} else {
-				navbar.classList.remove('shadow-lg', 'shadow-gray-700');
-			}
-		}
+        if (!navbar) return;
 
-		window.addEventListener('scroll', handleShadow);
+        function handleShadow() {
+            if (window.scrollY >= 90) {
+                navbar.classList.add('shadow-lg', 'shadow-gray-700');
+            } else {
+                navbar.classList.remove('shadow-lg', 'shadow-gray-700');
+            }
+        }
 
-		function toggleSidebar() {
-			if (!sidebar || !menuButton) return;
+        window.addEventListener('scroll', handleShadow);
 
-			if (sidebar.classList.contains('translate-x-0')) {
-				// Close sidebar
-				sidebar.classList.add('translate-x-full');
-				sidebar.classList.remove('translate-x-0');
-				menuButton.setAttribute('aria-expanded', 'false');
-				menuButton.style.opacity = '1'; // Show the menu button again
-			} else {
-				// Open sidebar
-				sidebar.classList.remove('translate-x-full');
-				sidebar.classList.add('translate-x-0');
-				menuButton.setAttribute('aria-expanded', 'true');
-				menuButton.style.opacity = '0'; // Hide the menu button
-			}
-		}
+        function toggleSidebar() {
+            if (!sidebar || !menuButton) return;
 
-		if (menuButton) {
-			menuButton.addEventListener('click', toggleSidebar);
-		}
+            if (sidebar.classList.contains('translate-x-0')) {
+                sidebar.classList.add('translate-x-full');
+                sidebar.classList.remove('translate-x-0');
+                menuButton.setAttribute('aria-expanded', 'false');
+                menuButton.style.opacity = '1';
+                sidebar.setAttribute('aria-hidden', 'true');
+            } else {
+                sidebar.classList.remove('translate-x-full');
+                sidebar.classList.add('translate-x-0');
+                menuButton.setAttribute('aria-expanded', 'true');
+                menuButton.style.opacity = '0';
+                sidebar.setAttribute('aria-hidden', 'false');
+            }
+        }
 
-		// Handle close button from sidebar
-		const closeButton = document.getElementById('close-button');
-		if (closeButton && menuButton) {
-			closeButton.addEventListener('click', () => {
-				if (sidebar && menuButton) {
-					sidebar.classList.add('translate-x-full');
-					sidebar.classList.remove('translate-x-0');
-					menuButton.setAttribute('aria-expanded', 'false');
-					menuButton.style.opacity = '1'; // Show the menu button again when sidebar is closed
-				}
-			});
-		}
-	});
+        if (menuButton) {
+            menuButton.addEventListener('click', toggleSidebar);
+        }
+
+        const closeButton = document.getElementById('close-button');
+        if (closeButton && menuButton) {
+            closeButton.addEventListener('click', () => {
+                if (sidebar && menuButton) {
+                    sidebar.classList.add('translate-x-full');
+                    sidebar.classList.remove('translate-x-0');
+                    menuButton.setAttribute('aria-expanded', 'false');
+                    menuButton.style.opacity = '1';
+                    sidebar.setAttribute('aria-hidden', 'true');
+                }
+            });
+        }
+
+        const nav = document.querySelector('nav');
+        const navLinks = nav ? nav.querySelectorAll('a[href^="/#"]') : [];
+        const ACTIVE = ['underline', 'decoration-yellow-400', 'underline-offset-8', 'text-yellow-400'];
+
+        /**
+         * @param {string} id
+         */
+        function setActiveLinkById(id) {
+            navLinks.forEach((link) => {
+                const href = link.getAttribute('href') ?? '';
+                const targetId = href.includes('#') ? href.split('#')[1] : '';
+                if (targetId && targetId === id) {
+                    link.classList.add(...ACTIVE);
+                } else {
+                    link.classList.remove(...ACTIVE);
+                }
+            });
+        }
+
+        /** @type {HTMLElement[]} */
+        const sections = [];
+        navLinks.forEach((link) => {
+            const href = link.getAttribute('href') ?? '';
+            const id = href.includes('#') ? href.split('#')[1] : '';
+            const el = id ? document.getElementById(id) : null;
+            if (el instanceof HTMLElement) sections.push(el);
+        });
+
+        if (sections.length) {
+            const observer = new IntersectionObserver((entries) => {
+                let topEntry = entries
+                    .filter((e) => e.isIntersecting)
+                    .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+                if (topEntry?.target?.id) {
+                    setActiveLinkById(topEntry.target.id);
+                }
+            }, { root: null, rootMargin: '-50% 0px -45% 0px', threshold: [0, 0.25, 0.5, 0.75, 1] });
+            sections.forEach((s) => observer.observe(s));
+            if (location.hash) setActiveLinkById(location.hash.replace('#', ''));
+        }
+    });
 </script>

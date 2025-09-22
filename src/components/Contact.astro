@@ -3,85 +3,87 @@ import Button from './Button.astro';
 import Socials from './Socials.astro';
 ---
 
-<div
-	id='contact'
-	class='w-full lg:h-screen'>
-	<div class='max-w-[1240px] m-auto px-2 py-16 w-full'>
-		<p class='text-xl tracking-widest uppercase text-blue-600'>
-			Contact
-		</p>
-		<h2 class='py-4'>Let's Chat!</h2>
-		<div class='grid lg:grid-cols-5 gap-8'>
-			<!-- left -->
-			<div
-				class='col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-700 rounded-xl p-4'>
-				<div class='lg:p-4 h-full'>
-					<div>
-						<img
-							class='rounded-xl shadow-lg shadow-gray-700 hover:scale-105 ease-in duration-200'
-							src='/contact.jpg'
-							alt='Contact Image'
-							width={981}
-							height={654}
-						/>
-					</div>
-					<div>
-						<h2 class='py-2 text-blue-600'>MaDrCloudDev</h2>
-						<p class='text-yellow-400'>Full-stack Web Developer</p>
-						<p class='py-4'>
-							I am available for freelance or full-time positions.
-							Contact me and let's talk.
-						</p>
-					</div>
-					<div>
-						<p
-							class='uppercase underline font-bold pt-8 text-center text-yellow-400 decoration-blue-600 tracking-widest'>
-							Connect With Me
-						</p>
-						<div class='flex items-center justify-between py-4'>
-							<Socials />
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- right -->
-			<div
-				class='col-span-3 lg:col-span-3 w-full h-full shadow-lg shadow-gray-700 rounded-xl lg:p-4'>
-				<div class='p-4'>
-					<form
-						action=''
-						method='POST'>
-						<div class='flex flex-col py-2'>
-							<label class='text-sm text-gray-600'> Name </label>
-							<input
-								type='text'
-								name='name'
-								class='border-2 p-2 rounded-lg mt-2'
-								placeholder='Enter your name'
-							/>
-						</div>
-						<div class='flex flex-col py-2'>
-							<label class='text-sm text-gray-600'> Email </label>
-							<input
-								type='email'
-								name='email'
-								class='border-2 p-2 rounded-lg mt-2'
-								placeholder='Enter your email'
-							/>
-						</div>
-						<div class='flex flex-col py-2'>
-							<label class='text-sm text-gray-600'> Message </label>
-							<textarea
-								name='message'
-								class='border-2 p-2 rounded-lg mt-2'
-								rows={4}
-								placeholder='Enter your message'
-							></textarea>
-						</div>
-						<Button text='Send Message' />
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<section id='contact' class='w-full lg:h-screen' aria-labelledby='contact-heading'>
+    <div class='max-w-[1240px] m-auto px-2 py-16 w-full'>
+        <p class='text-xl tracking-widest uppercase text-blue-600'>Contact</p>
+        <h2 id='contact-heading' class='py-4'>Let's Chat!</h2>
+        <div class='grid lg:grid-cols-5 gap-8'>
+            <!-- left -->
+            <div
+                class='col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-700 rounded-xl p-4'>
+                <div class='lg:p-4 h-full'>
+                    <div>
+                        <img
+                            class='rounded-xl shadow-lg shadow-gray-700 hover:scale-105 ease-in duration-200'
+                            src='/contact.jpg'
+                            alt='Desk with laptop and notebook'
+                            width={981}
+                            height={654}
+                            loading='lazy'
+                            decoding='async'
+                        />
+                    </div>
+                    <div>
+                        <h2 class='py-2 text-blue-600'>MaDrCloudDev</h2>
+                        <p class='text-yellow-400'>Full-stack Web Developer</p>
+                        <p class='py-4'>
+                            I am available for freelance or full-time positions.
+                            Contact me and let's talk.
+                        </p>
+                    </div>
+                    <div>
+                        <p
+                            class='uppercase underline font-bold pt-8 text-center text-yellow-400 decoration-blue-600 tracking-widest'>
+                            Connect With Me
+                        </p>
+                        <div class='flex items-center justify-between py-4'>
+                            <Socials />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right -->
+            <div
+                class='col-span-3 lg:col-span-3 w-full h-full shadow-lg shadow-gray-700 rounded-xl lg:p-4'>
+                <div class='p-4'>
+                    <form action='' method='POST' aria-describedby='contact-heading'>
+                        <div class='flex flex-col py-2'>
+                            <label for='name' class='text-sm text-gray-600'>Name</label>
+                            <input
+                                type='text'
+                                id='name'
+                                name='name'
+                                class='border-2 p-2 rounded-lg mt-2'
+                                placeholder='Enter your name'
+                                autocomplete='name'
+                            />
+                        </div>
+                        <div class='flex flex-col py-2'>
+                            <label for='email' class='text-sm text-gray-600'>Email</label>
+                            <input
+                                type='email'
+                                id='email'
+                                name='email'
+                                class='border-2 p-2 rounded-lg mt-2'
+                                placeholder='Enter your email'
+                                autocomplete='email'
+                            />
+                        </div>
+                        <div class='flex flex-col py-2'>
+                            <label for='message' class='text-sm text-gray-600'>Message</label>
+                            <textarea
+                                id='message'
+                                name='message'
+                                class='border-2 p-2 rounded-lg mt-2'
+                                rows={4}
+                                placeholder='Enter your message'
+                                autocomplete='off'
+                            ></textarea>
+                        </div>
+                        <Button text='Send Message' />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

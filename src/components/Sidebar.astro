@@ -9,6 +9,7 @@ const { id = "sidebar" } = Astro.props;
 <aside
   id={id}
   class="fixed inset-y-0 right-0 z-50 w-64 bg-black transform translate-x-full transition-transform duration-300 ease-in-out"
+  aria-hidden="true"
 >
   <div class="p-4">
     <div class="flex justify-between">
@@ -34,7 +35,7 @@ const { id = "sidebar" } = Astro.props;
         </svg>
       </button>
     </div>
-    <nav class="mt-8 ml-4">
+    <nav class="mt-8 ml-4" aria-label="Mobile">
       <div class="text-center border-b border-blue-400">
         <span id="decor" class="text-sm text-yellow-400">
           Let's build the web together
