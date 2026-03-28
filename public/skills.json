@@ -1,99 +1,98 @@
 [
-    {
-      "name": "HTML",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/html.png"
-    },
-    {
-      "name": "Markdown",
-      "image": "/markdown.svg"
-    },
-    {
-      "name": "CSS",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/css.png"
-    },
-    {
-      "name": "JavaScript",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/javascript.png"
-    },
-    {
-      "name": "TypeScript",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/typescript.png"
-    },
-    {
-      "name": "Linux",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/linux.png"
-    },
-    {
-      "name": "GitHub",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/github.png"
-    },
-    {
-      "name": "MongoDB",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/mongo.png"
-    },
-    {
-      "name": "Express",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/express.png"
-    },
-    {
-      "name": "React",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/react.png"
-    },
-    {
-      "name": "Node.js",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/node.png"
-    },
-    {
-      "name": "Next.js",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/nextjs.png"
-    },
-    {
-      "name": "tRPC",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/trpc.png"
-    },
-    {
-      "name": "Prisma",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/prisma.png"
-    },
-    {
-      "name": "Tailwind",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/tailwind.png"
-    },
-    {
-      "name": "PlanetScale",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/planetscale.png"
-    },
-    {
-      "name": "Svelte",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/svelte.png"
-    },
-    {
-      "name": "Astro",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astro.png"
-    },
-    {
-      "name": "Vercel",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vercel.png"
-    },
-    {
-      "name": "Netlify",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/netlify.png"
-    },
-    {
-      "name": "Cloudflare",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/cloudflare.png"
-    },
-    {
-      "name": "Jamstack",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/jamstack.png"
-    },
-    {
-      "name": "Figma",
-      "image": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/figma.png"
-    },
-    {
-      "name": "Adobe Illustrator",
-      "image": "/adobeillustrator.png"
-    }
-  ]
-  
+  {
+    "name": "HTML",
+    "image": "/generated-placeholders/skills/html.svg"
+  },
+  {
+    "name": "Markdown",
+    "image": "/generated-placeholders/skills/markdown.svg"
+  },
+  {
+    "name": "CSS",
+    "image": "/generated-placeholders/skills/css.svg"
+  },
+  {
+    "name": "JavaScript",
+    "image": "/generated-placeholders/skills/javascript.svg"
+  },
+  {
+    "name": "TypeScript",
+    "image": "/generated-placeholders/skills/typescript.svg"
+  },
+  {
+    "name": "Linux",
+    "image": "/generated-placeholders/skills/linux.svg"
+  },
+  {
+    "name": "GitHub",
+    "image": "/generated-placeholders/skills/github.svg"
+  },
+  {
+    "name": "MongoDB",
+    "image": "/generated-placeholders/skills/mongodb.svg"
+  },
+  {
+    "name": "Express",
+    "image": "/generated-placeholders/skills/express.svg"
+  },
+  {
+    "name": "React",
+    "image": "/generated-placeholders/skills/react.svg"
+  },
+  {
+    "name": "Node.js",
+    "image": "/generated-placeholders/skills/node-js.svg"
+  },
+  {
+    "name": "Next.js",
+    "image": "/generated-placeholders/skills/next-js.svg"
+  },
+  {
+    "name": "tRPC",
+    "image": "/generated-placeholders/skills/trpc.svg"
+  },
+  {
+    "name": "Prisma",
+    "image": "/generated-placeholders/skills/prisma.svg"
+  },
+  {
+    "name": "Tailwind",
+    "image": "/generated-placeholders/skills/tailwind.svg"
+  },
+  {
+    "name": "PlanetScale",
+    "image": "/generated-placeholders/skills/planetscale.svg"
+  },
+  {
+    "name": "Svelte",
+    "image": "/generated-placeholders/skills/svelte.svg"
+  },
+  {
+    "name": "Astro",
+    "image": "/generated-placeholders/skills/astro.svg"
+  },
+  {
+    "name": "Vercel",
+    "image": "/generated-placeholders/skills/vercel.svg"
+  },
+  {
+    "name": "Netlify",
+    "image": "/generated-placeholders/skills/netlify.svg"
+  },
+  {
+    "name": "Cloudflare",
+    "image": "/generated-placeholders/skills/cloudflare.svg"
+  },
+  {
+    "name": "Jamstack",
+    "image": "/generated-placeholders/skills/jamstack.svg"
+  },
+  {
+    "name": "Figma",
+    "image": "/generated-placeholders/skills/figma.svg"
+  },
+  {
+    "name": "Adobe Illustrator",
+    "image": "/generated-placeholders/skills/adobe-illustrator.svg"
+  }
+]

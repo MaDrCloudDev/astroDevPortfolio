@@ -1,109 +1,109 @@
 [
   {
     "title": "accessibleReactTodo",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/accessiblereacttodo.webp",
+    "backgroundImg": "/generated-placeholders/projects/accessiblereacttodo.svg",
     "projectUrl": "/accessiblereacttodo",
     "frameWorks": "React"
   },
   {
     "title": "astroConversion",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astroconversion.webp",
+    "backgroundImg": "/generated-placeholders/projects/astroconversion.svg",
     "projectUrl": "/astroconversion",
     "frameWorks": "Astro"
   },
   {
     "title": "astroDocumentationTheme",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astrodocumentationtheme.webp",
+    "backgroundImg": "/generated-placeholders/projects/astrodocumentationtheme.svg",
     "projectUrl": "/astrodocumentationtheme",
     "frameWorks": "Astro"
   },
   {
     "title": "astroSharedState",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/astrosharedstate.webp",
+    "backgroundImg": "/generated-placeholders/projects/astrosharedstate.svg",
     "projectUrl": "/astrosharedstate",
     "frameWorks": "Astro / React / SolidJS / Svelte / Vue / AlpineJS"
   },
   {
     "title": "callingCard",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/callingcard.webp",
+    "backgroundImg": "/generated-placeholders/projects/callingcard.svg",
     "projectUrl": "/callingcard",
     "frameWorks": "Astro"
   },
   {
     "title": "campMaDrs",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/campmadrs.webp",
+    "backgroundImg": "/generated-placeholders/projects/campmadrs.svg",
     "projectUrl": "/campmadrs",
     "frameWorks": "Bootstrap / Cloudinary / EJS / Express/ Mapbox / MongoDB / Node.js / Passport"
   },
   {
     "title": "goalsMaDr",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/goalsmadr.webp",
+    "backgroundImg": "/generated-placeholders/projects/goalsmadr.svg",
     "projectUrl": "/goalsmadr",
     "frameWorks": "Express / MongoDB / Node.js / React"
   },
   {
     "title": "MaDrPortfolio",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrportfolio.webp",
+    "backgroundImg": "/generated-placeholders/projects/madrportfolio.svg",
     "projectUrl": "/portfolio",
     "frameWorks": "Next.js / Tailwind"
   },
   {
     "title": "movieWebsite",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/moviewebsite.webp",
+    "backgroundImg": "/generated-placeholders/projects/moviewebsite.svg",
     "projectUrl": "/moviewebsite",
     "frameWorks": "Firebase / React / Tailwind"
   },
   {
     "title": "notesApp",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrnotesapp.webp",
+    "backgroundImg": "/generated-placeholders/projects/notesapp.svg",
     "projectUrl": "/notesapp",
     "frameWorks": "CSS / HTML / JavaScript"
   },
   {
     "title": "simpleContactSite",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simplecontactsite.webp",
+    "backgroundImg": "/generated-placeholders/projects/simplecontactsite.svg",
     "projectUrl": "/simplecontactsite",
     "frameWorks": "CSS / HTML / JavaScript / Vanta.js"
   },
   {
     "title": "simpleWeatherApp",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/simpleweatherapp.webp",
+    "backgroundImg": "/generated-placeholders/projects/simpleweatherapp.svg",
     "projectUrl": "/simpleweatherapp",
     "frameWorks": "CSS / React"
   },
   {
     "title": "t3StackList",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/t3stacklist.webp",
+    "backgroundImg": "/generated-placeholders/projects/t3stacklist.svg",
     "projectUrl": "/t3stacklist",
     "frameWorks": "Next.js / Prisma / PlanetScale / Tailwind / tRPC / TypeScript"
   },
   {
     "title": "todoApp",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrtodoapp.webp",
+    "backgroundImg": "/generated-placeholders/projects/todoapp.svg",
     "projectUrl": "/todoapp",
     "frameWorks": "CSS / HTML / JavaScript"
   },
   {
     "title": "treeOfLinks",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/treeoflinks.webp",
+    "backgroundImg": "/generated-placeholders/projects/treeoflinks.svg",
     "projectUrl": "/treeoflinks",
     "frameWorks": "Svelte / tsParticles"
   },
   {
     "title": "Vector Design",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/vectordesign.webp",
+    "backgroundImg": "/generated-placeholders/projects/vector-design.svg",
     "projectUrl": "/vectordesign",
     "frameWorks": "Adobe Illustrator / Figma"
   },
   {
     "title": "weHadLeftTheGround",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/wehadlefttheground.webp",
+    "backgroundImg": "/generated-placeholders/projects/wehadlefttheground.svg",
     "projectUrl": "/wehadlefttheground",
     "frameWorks": "CSS / HTML / JavaScript"
   },
   {
     "title": "wordGuessGame",
-    "backgroundImg": "https://raw.githubusercontent.com/MaDrCloudDev/projectsImages/master/madrwordguessgame.webp",
+    "backgroundImg": "/generated-placeholders/projects/wordguessgame.svg",
     "projectUrl": "/wordguessgame",
     "frameWorks": "CSS / HTML / JavaScript"
   }

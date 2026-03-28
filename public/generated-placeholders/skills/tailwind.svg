@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Icon placeholder for Tailwind">
+  <defs>
+    <linearGradient id="skillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#skillGrad)"/>
+  <rect x="12" y="12" width="104" height="104" rx="16" fill="rgba(15,23,42,0.35)" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+  <circle cx="98" cy="34" r="18" fill="rgba(15,23,42,0.65)" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+  <text x="98" y="38" text-anchor="middle" dominant-baseline="middle" font-size="14" font-family="Inter, 'Segoe UI', system-ui, sans-serif" fill="#f8fafc">TW</text>
+  <text x="64" y="70" text-anchor="middle" dominant-baseline="middle" font-size="18" font-family="Inter, 'Segoe UI', system-ui, sans-serif" fill="#0f172a">Tailwind</text>
+  <text x="64" y="94" text-anchor="middle" font-size="10" font-family="Inter, 'Segoe UI', system-ui, sans-serif" fill="#0f172a" opacity="0.75">Technology</text>
+</svg>
